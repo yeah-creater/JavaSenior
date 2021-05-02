@@ -17,56 +17,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="this is my first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/javafx/shopping/ShoppingWin6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/lesson01/Market6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/lesson01/Person6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/lesson01/Product6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/lesson01/Shopping6354$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/lesson01/Shopping6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/lesson01/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/selection/SelectionWin6354$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/selection/SelectionWin6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/01Lesson6354/java6354/selection/StudentList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/lesson07/CreateNewFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/lesson07/CreateNewFile6354Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/lesson07/CreateNewFile6354View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/lesson07/ListFile6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/lesson07/ListFile6354Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/lesson07/ListFile6354View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/nio2/MyFile6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/nio2/NIO2Dir6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/nio2/NIO2Dir6354Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/nio2/NIO2Dir6354View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/nio2/NIO2NewFile6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/nio2/NIO2NewFile6354Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/07Lesson6354/java6354/nio2/NIO2NewFileView6354.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/FileFilter6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/FileFilter6354Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/FileFilter6354View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/FilenameFilters$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/FilenameFilters$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/FilenameFilters$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/FilenameFilters$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/FilenameFilters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/filter/Filters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/sort/Course6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/sort/ListSort6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/sort/ListSort6354Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/sort/ListSort6354View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/lesson08/sort/getCourse6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/search/SearchFile6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/search/SearchFile6354Controller$MyWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/search/SearchFile6354Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/08Lesson6354/java6354/search/SearchFile6354View.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="this is my first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -386,6 +337,7 @@
       <workItem from="1619948197432" duration="383000" />
       <workItem from="1619948757192" duration="411000" />
       <workItem from="1619949573200" duration="326000" />
+      <workItem from="1619950747701" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
