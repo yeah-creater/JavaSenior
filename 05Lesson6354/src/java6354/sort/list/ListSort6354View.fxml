@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="java6354.sort.list.ListSort6354Controller">
+    <bottom>
+        <Label prefHeight="34.0" prefWidth="162.0" text="by 211906354：叶本章" BorderPane.alignment="CENTER"/>
+    </bottom>
+    <left>
+        <VBox alignment="CENTER" prefHeight="366.0" prefWidth="207.0" spacing="40"  BorderPane.alignment="CENTER">
+            <children>
+                <RadioButton fx:id="desByMark" lineSpacing="12.0" mnemonicParsing="false" prefHeight="24.0"
+                             prefWidth="188.0" text="按成绩降序">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                    <toggleGroup>
+                        <ToggleGroup fx:id="button"/>
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="asByTerm" mnemonicParsing="false" prefHeight="24.0" prefWidth="190.0" text="按学期升序"
+                             toggleGroup="$button">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="asByCredit" mnemonicParsing="false" prefHeight="24.0" prefWidth="189.0" text="按学分升序"
+                             toggleGroup="$button">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="asByBoth" mnemonicParsing="false" prefHeight="24.0" prefWidth="191.0"
+                             text="按学期,学分升序" toggleGroup="$button">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </RadioButton>
+            </children>
+            <opaqueInsets>
+                <Insets/>
+            </opaqueInsets>
+        </VBox>
+    </left>
+    <center>
+        <ListView fx:id="lvCourse" prefHeight="366.0" prefWidth="354.0" BorderPane.alignment="CENTER_LEFT"/>
+        <BorderPane.margin>
+            <Insets bottom="10" left="10.0" right="10.0" top="10"/>
+        </BorderPane.margin>
+    </center>
+</BorderPane>

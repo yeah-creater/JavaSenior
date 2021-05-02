@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java6354.lesson08.sort.ListSort6354Controller">
+   <left>
+      <VBox alignment="CENTER_LEFT" prefHeight="400.0" prefWidth="216.0" spacing="30.0" BorderPane.alignment="TOP_RIGHT">
+         <children>
+            <RadioButton fx:id="rb1" mnemonicParsing="false" text="按成绩降序" toggleGroup="$tg">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="rb2"  mnemonicParsing="false" text="按学期升序" toggleGroup="$tg" />
+            <RadioButton fx:id="rb3"  mnemonicParsing="false" text="按学分升序" toggleGroup="$tg" />
+            <RadioButton fx:id="rb4"  mnemonicParsing="false" text="按学期升序、学分降序" toggleGroup="$tg" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </VBox>
+   </left>
+   <bottom>
+      <Label text="by 211906354：叶本章" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" top="5.0" />
+         </BorderPane.margin>
+      </Label>
+   </bottom>
+   <center>
+      <ListView fx:id="lvCourse" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets right="10.0" top="10.0" />
+         </BorderPane.margin>
+      </ListView>
+   </center>
+</BorderPane>
