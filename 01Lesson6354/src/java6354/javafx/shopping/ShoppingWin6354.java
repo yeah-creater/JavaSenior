@@ -11,7 +11,6 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
 
-import java.sql.Driver;
 
 
 /**
