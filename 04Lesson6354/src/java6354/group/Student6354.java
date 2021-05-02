@@ -1,0 +1,44 @@
+package java6354.group;
+
+import java.util.Objects;
+
+/**
+ * @purpose:创建学生类（用于初始化学生姓名）
+ */
+public class Student6354 {
+    private String name;
+
+    public Student6354(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Student6354 that = (Student6354) o;
+        return Objects.equals(name, that.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+}
