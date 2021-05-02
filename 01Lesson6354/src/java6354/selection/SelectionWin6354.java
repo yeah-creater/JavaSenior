@@ -45,7 +45,7 @@ public class SelectionWin6354 extends Application {
                     fis.read(bytes);
                     String s=new String(bytes);
                     String[] lists = s.split("\n");
-                    int key=(int)(Math.random()*48);//0~47
+                    int key=(int)(Math.random()*48);// 0~47
                     System.out.println(key);
                     down.setText("恭喜"+lists[key]+"           被选中");
                 } catch (Exception e) {
