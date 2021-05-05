@@ -10,7 +10,7 @@ public class GetStudentList {
         Scanner sc = null;
         ArrayList<Student6354> list = new ArrayList<>();
         try {
-            sc = new Scanner(new File("04Lesson6354/data/StudentList(one million).txt"));
+            sc = new Scanner(new File("04Lesson6354/data/StudentList.txt"));
             while (sc.hasNext()) {
                 String line = sc.nextLine();
                 list.add(new Student6354(line.split(" ")[1]));

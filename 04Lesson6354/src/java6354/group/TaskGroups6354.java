@@ -6,6 +6,9 @@ import java.security.Signature;
 import java.util.ArrayList;
 
 
+/**
+ * @author yeah
+ */
 public class TaskGroups6354 {
     static int SIZE;
     static int left;
@@ -23,14 +26,6 @@ public class TaskGroups6354 {
      * @return 剩余人数是否可以用5~7凑出
      */
     public boolean isOk(int left) {
-//        for (int i = 0; i <= (SIZE+T1-1)/T1; i++) {
-//            for (int j = 0; j <= (SIZE+T2-1)/T2; j++) {
-//                for (int k = 0; k <= (SIZE+T3-1)/T3; k++) {
-//                    if (5 * i + j * 6 + 7 * k == left) return true;
-//                }
-//            }
-//        }
-//        return false;
         if(left<0) {
             return false;
         }
@@ -95,9 +90,11 @@ public class TaskGroups6354 {
      * 得到分组
      */
     public void divide() {
-        int okCnt = 0;//已分配的学生数量
+        //已分配的学生数量
+        int okCnt = 0;
         while (okCnt < SIZE) {
-            int cnt = getRandomValidCnt();//合法的小组人员数量
+            //合法的小组人员数量
+            int cnt = getRandomValidCnt();
             divide(cnt);
             okCnt += cnt;
         }
@@ -132,7 +129,7 @@ public class TaskGroups6354 {
         System.out.println("数据量:"+SIZE);
         long end = System.currentTimeMillis();
         long time=(end-start);
-        System.out.println("算法耗时(读取文件不计入)："+time+"ms");
+        System.out.println("耗时(读取文件不计入)："+time+"ms");
         System.out.println("over!!!");
     }
 }
