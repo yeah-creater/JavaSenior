@@ -8,7 +8,10 @@ import java.io.OutputStream;
 import java.util.Scanner;
 
 
-public class CopyFileXXXX {
+/**
+ * @author yeah
+ */
+public class CopyFile6354 {
   public static void main(String[] args) throws Exception {
     Scanner input = new Scanner(System.in);
     System.out.print("请输入要拷贝的源文件名：");
