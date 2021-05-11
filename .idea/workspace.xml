@@ -18,9 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04Lesson6354/src/java6354/group/GetStudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/04Lesson6354/src/java6354/group/GetStudentList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04Lesson6354/src/java6354/group/TaskGroups6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/04Lesson6354/src/java6354/group/TaskGroups6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +69,12 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04Lesson6354/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -87,6 +87,13 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\09Lesson6354\src\java6354\lesson09" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\08Lesson6354\src" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\data" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\src\java6354\group" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\08Lesson6354\src\java6354\search" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\data" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\src\java6354\group" />
@@ -100,15 +107,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="java6354.generic" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\data" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\src\java6354\group" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\08Lesson6354\src\java6354\search" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\08Lesson6354\src\java6354\lesson08\sort" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\08Lesson6354\src\java6354\lesson08" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.TaskGroupsDemo6354">
+  <component name="RunManager" selected="Application.SearchFile6344">
     <configuration name="FileFilter6354 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lesson08.filter.FileFilter6354" />
       <module name="08Lesson6354" />
@@ -122,28 +122,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileFilter6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson08.FileFilter6354" />
+    <configuration name="SearchFile6344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchFile6344" />
       <module name="08Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lesson08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListSort6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson08.sort.ListSort6354" />
-      <module name="08Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lesson08.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,6 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchFile6399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchFile6399" />
+      <module name="08Lesson6354" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskGroupsDemo6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.group.TaskGroupsDemo6354" />
       <module name="04Lesson6354" />
@@ -174,13 +162,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaskGroupsDemo6354" />
+        <item itemvalue="Application.SearchFile6344" />
+        <item itemvalue="Application.SearchFile6399" />
         <item itemvalue="Application.SearchFile6354" />
+        <item itemvalue="Application.TaskGroupsDemo6354" />
         <item itemvalue="Application.FileFilter6354 (1)" />
-        <item itemvalue="Application.ListSort6354" />
-        <item itemvalue="Application.FileFilter6354" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +351,12 @@
       <workItem from="1620023786116" duration="140000" />
       <workItem from="1620033648481" duration="275000" />
       <workItem from="1620096762432" duration="25000" />
-      <workItem from="1620177953572" duration="847000" />
+      <workItem from="1620177953572" duration="901000" />
+      <workItem from="1620462059064" duration="1311000" />
+      <workItem from="1620481583481" duration="31000" />
+      <workItem from="1620556315981" duration="838000" />
+      <workItem from="1620709852404" duration="840000" />
+      <workItem from="1620746139757" duration="2155000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -438,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619967280254</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modified">
+      <created>1620179098135</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620179098135</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,132 +471,7 @@
     <MESSAGE value="this is my first commit" />
     <MESSAGE value="hh" />
     <MESSAGE value="类的定义与使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="类的定义与使用" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="395" y="91" key="#Inspections" timestamp="1617868472059">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1617868472059" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1619403788294">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1619403788294" />
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620033676236">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620033676236" />
-    <state x="482" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617378213569">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="482" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1617378213569" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1619589061899">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1619589061899" />
-    <state x="377" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1618927335764">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="377" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1618927335764" />
-    <state x="544" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1617612254641">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="544" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1617612254641" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615445288186">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1615445288186" />
-    <state x="505" y="131" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1617534995958">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="505" y="131" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1617534995958" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1619967279175">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619967279175" />
-    <state x="138" y="65" key="DiffContextDialog" timestamp="1619943961361">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="138" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1619943961361" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619948577942">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1619948577942" />
-    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1620033923683">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620033923683" />
-    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1620033923683">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620033923683" />
-    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1620033923683">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620033923683" />
-    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1620033923683">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620033923683" />
-    <state width="1493" height="51" key="GridCell.Tab.1.bottom" timestamp="1618288147246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="51" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618288147246" />
-    <state width="1493" height="51" key="GridCell.Tab.1.center" timestamp="1618288147246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="51" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1618288147246" />
-    <state width="1493" height="51" key="GridCell.Tab.1.left" timestamp="1618288147246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="51" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1618288147246" />
-    <state width="1493" height="51" key="GridCell.Tab.1.right" timestamp="1618288147246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="51" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618288147246" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1619938333908">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1619938333908" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619967286226">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619967286226" />
-    <state x="573" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619964588881">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="573" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1619964588881" />
-    <state x="387" y="66" width="861" height="610" key="dock-window-1" timestamp="1617723992721">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="387" y="66" width="861" height="610" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1617723992721" />
-    <state x="499" y="172" key="extract.method.dialog" timestamp="1616597006268">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="172" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1616597006268" />
-    <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1619949597474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1619949597474" />
-    <state x="178" y="22" width="1198" height="779" key="new project wizard" timestamp="1619320002914">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="22" width="1198" height="779" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1619320002914" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1619674314966">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1619674314966" />
-    <state x="567" y="271" key="scopes" timestamp="1617261854906">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="567" y="271" key="scopes/0.0.1536.824@0.0.1536.824" timestamp="1617261854906" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1617614844134">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617614844134" />
-    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1618109056077">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1618109056077" />
+    <MESSAGE value="modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
 </project>
