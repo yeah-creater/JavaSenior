@@ -5,7 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-public class ReadFileXXXXController {
+public class ReadFile6354Controller {
 
     @FXML
     private TextField tfFilename;

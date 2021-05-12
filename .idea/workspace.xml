@@ -17,9 +17,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" afterDir="false" />
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="modified">
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354]View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354]View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFileXXXXController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -162,17 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SearchFile6344" />
@@ -183,7 +175,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="" />
@@ -357,6 +352,7 @@
       <workItem from="1620556315981" duration="838000" />
       <workItem from="1620709852404" duration="840000" />
       <workItem from="1620746139757" duration="2155000" />
+      <workItem from="1620777744594" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -453,7 +449,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -473,5 +469,19 @@
     <MESSAGE value="类的定义与使用" />
     <MESSAGE value="modified" />
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1620777804519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1620777804519" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620778227660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620778227660" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1620778123219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1620778123219" />
   </component>
 </project>
