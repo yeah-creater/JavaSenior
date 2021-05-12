@@ -17,15 +17,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="modified">
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/Demo.java" afterDir="false" />
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04Lesson6354/04Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04Lesson6354/04Lesson6354.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07Lesson6354/07Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07Lesson6354/07Lesson6354.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08Lesson6354/08Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08Lesson6354/08Lesson6354.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08Lesson6354/src/java6354/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/09Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/09Lesson6354.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/Demo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,10 +71,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mongo" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
@@ -92,7 +84,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -119,9 +111,9 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Demo.test02">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson09.Demo" />
+  <component name="RunManager" selected="Application.CopyFile6354">
+    <configuration name="CopyFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lesson09.CopyFile6354" />
       <module name="09Lesson6354" />
       <extension name="coverage">
         <pattern>
@@ -140,6 +132,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.search.SearchFile6354" />
+      <module name="08Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchFile6399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SearchFile6399" />
       <module name="08Lesson6354" />
@@ -147,7 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WriteFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lesson09.WriteFile6354" />
       <module name="09Lesson6354" />
       <extension name="coverage">
         <pattern>
@@ -155,44 +161,34 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java6354.lesson09" />
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson09.Demo" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="09Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lesson09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java6354.lesson09" />
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson09.Demo" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Demo.test02" />
-        <item itemvalue="JUnit.Demo.test01" />
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.CopyFile6354" />
+        <item itemvalue="Application.WriteFile6354" />
         <item itemvalue="Application.SearchFile6344" />
         <item itemvalue="Application.SearchFile6399" />
+        <item itemvalue="Application.SearchFile6354" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="" />
@@ -366,7 +362,6 @@
       <workItem from="1620556315981" duration="838000" />
       <workItem from="1620709852404" duration="840000" />
       <workItem from="1620746139757" duration="2155000" />
-      <workItem from="1620777744594" duration="9680000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -459,18 +454,11 @@
       <option name="project" value="LOCAL" />
       <updated>1620179098135</updated>
     </task>
-    <task id="LOCAL-00014" summary="modified">
-      <created>1620779412825</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1620779412825</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -490,43 +478,5 @@
     <MESSAGE value="类的定义与使用" />
     <MESSAGE value="modified" />
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1620784543162">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620784543162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1620783856566">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620783856566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1620783856566">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620783856566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1620783856566">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620783856566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1620783856566">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620783856566" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1620781145150">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1620781145150" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620779428563">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620779428563" />
-    <state x="658" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1620782400511">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="658" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1620782400511" />
-    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1620778123219">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1620778123219" />
   </component>
 </project>
