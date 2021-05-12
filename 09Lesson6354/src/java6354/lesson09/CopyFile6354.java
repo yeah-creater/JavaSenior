@@ -40,9 +40,7 @@ public class CopyFile6354 {
         File file = new File(targetName);
         if (!file.exists()) {
             if (!file.getParentFile().exists()) {
-                if (!file.getParentFile().mkdirs()) {
-                    return false;
-                }
+                return file.getParentFile().mkdirs();
             }
         }
         //判断目标路径是否已经存在，如果不存在，创建

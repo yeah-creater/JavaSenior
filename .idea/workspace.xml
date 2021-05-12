@@ -18,11 +18,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354]View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354View.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,8 @@
         <option value="FxmlFile" />
         <option value="Kotlin File" />
         <option value="Interface" />
-        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -111,9 +112,22 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyFile6354">
+  <component name="RunManager" selected="Application.ReadFile6354">
     <configuration name="CopyFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lesson09.CopyFile6354" />
+      <module name="09Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.lesson09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lesson09.ReadFile6354" />
       <module name="09Lesson6354" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +142,6 @@
     <configuration name="SearchFile6344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SearchFile6344" />
       <module name="08Lesson6354" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.search.SearchFile6354" />
-      <module name="08Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFile6354" />
         <item itemvalue="Application.CopyFile6354" />
         <item itemvalue="Application.WriteFile6354" />
         <item itemvalue="Application.SearchFile6344" />
         <item itemvalue="Application.SearchFile6399" />
-        <item itemvalue="Application.SearchFile6354" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620179098135</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="modified">
+      <created>1620800268913</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620800268913</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
