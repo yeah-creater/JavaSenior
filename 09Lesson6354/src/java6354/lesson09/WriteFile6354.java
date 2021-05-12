@@ -4,6 +4,7 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 import java.util.zip.InflaterInputStream;
+
 /**
  * @author yeah
  */
@@ -12,10 +13,9 @@ public class WriteFile6354 {
         Scanner input = new Scanner(System.in);
         System.out.print("请输入文件名：");
         String filename = input.nextLine();
-        System.out.println("请逐行输入数据，以end结束");
         // 调用writeXXXX()向文件中输出字符串，并返回字节数
         // 在控制台上输出向文件中写入的字节数
-        System.out.println("文件大小为"+write6354(filename)+"B");
+        System.out.println("文件大小为" + write6354(filename) + "B");
     }
 
     private static long write6354(String filename) {
@@ -34,6 +34,7 @@ public class WriteFile6354 {
         FileWriter fw = null;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         try {
+            System.out.println("请逐行输入数据，以end结束");
             // 步骤2：创建指向文件的字符输出流
             fw = new FileWriter(file, false);
             String data;

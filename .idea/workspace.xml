@@ -18,12 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354]View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +107,7 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFile6354">
+  <component name="RunManager" selected="Application.WriteFile6354">
     <configuration name="CopyFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lesson09.CopyFile6354" />
       <module name="09Lesson6354" />
@@ -181,9 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteFile6354" />
         <item itemvalue="Application.ReadFile6354" />
         <item itemvalue="Application.CopyFile6354" />
-        <item itemvalue="Application.WriteFile6354" />
         <item itemvalue="Application.SearchFile6344" />
         <item itemvalue="Application.SearchFile6399" />
       </list>
@@ -462,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620800268913</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="modified">
+      <created>1620801530639</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620801530639</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
