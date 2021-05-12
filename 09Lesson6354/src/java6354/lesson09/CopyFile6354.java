@@ -23,7 +23,7 @@ public class CopyFile6354 {
             long endTime = System.currentTimeMillis();
             long cost = endTime - beginTime;
             //输出拷贝文件的字节数和用时
-            System.out.println("拷贝" + size + "字节文件");
+            System.out.println("拷贝" + size + "字节文件到"+target);
             System.out.println("用时" + cost + "ms");
             return;
         }

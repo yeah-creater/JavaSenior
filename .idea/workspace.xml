@@ -18,7 +18,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/WriteFile6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/scores.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/LoadScores6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/LoadScores6354Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/LoadScores6354View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/Score6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/09Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/09Lesson6354.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +40,8 @@
         <option value="FxmlFile" />
         <option value="Kotlin File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,13 +76,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mongo" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../11SSM/code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -87,11 +101,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\09Lesson6354\src\java6354\score" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\09Lesson6354\src\java6354\lesson09" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\08Lesson6354\src" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\data" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\src\java6354\group" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\08Lesson6354\src\java6354\search" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\04Lesson6354\data" />
@@ -107,13 +121,26 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteFile6354">
+  <component name="RunManager" selected="Application.LoadScores6354">
     <configuration name="CopyFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lesson09.CopyFile6354" />
       <module name="09Lesson6354" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java6354.lesson09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadScores6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.scores.LoadScores6354" />
+      <module name="09Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.scores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchFile6399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchFile6399" />
-      <module name="08Lesson6354" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WriteFile6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lesson09.WriteFile6354" />
       <module name="09Lesson6354" />
@@ -161,26 +181,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WriteFile6354" />
-        <item itemvalue="Application.ReadFile6354" />
+        <item itemvalue="Application.LoadScores6354" />
         <item itemvalue="Application.CopyFile6354" />
+        <item itemvalue="Application.ReadFile6354" />
+        <item itemvalue="Application.WriteFile6354" />
         <item itemvalue="Application.SearchFile6344" />
-        <item itemvalue="Application.SearchFile6399" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +376,10 @@
       <workItem from="1620556315981" duration="838000" />
       <workItem from="1620709852404" duration="840000" />
       <workItem from="1620746139757" duration="2155000" />
+      <workItem from="1620822107126" duration="585000" />
+      <workItem from="1620822799170" duration="1000" />
+      <workItem from="1620826204842" duration="10000" />
+      <workItem from="1620830283285" duration="5491000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -464,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620801530639</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="modified">
+      <created>1620801789108</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620801789108</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

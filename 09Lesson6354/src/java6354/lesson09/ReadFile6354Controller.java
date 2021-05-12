@@ -6,7 +6,6 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
 import java.io.*;
-
 /**
  * @author yeah
  */
