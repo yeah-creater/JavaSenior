@@ -1,6 +1,5 @@
 package java6354.scores;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

@@ -18,16 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/scores.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/LoadScores6354.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/LoadScores6354Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/LoadScores6354View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/Score6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/09Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/09Lesson6354.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/CopyFile6354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/lesson09/ReadFile6354Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/LoadScores6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/LoadScores6354Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/Score6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/src/java6354/scores/Score6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,17 +170,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -379,7 +361,7 @@
       <workItem from="1620822107126" duration="585000" />
       <workItem from="1620822799170" duration="1000" />
       <workItem from="1620826204842" duration="10000" />
-      <workItem from="1620830283285" duration="5491000" />
+      <workItem from="1620830283285" duration="6445000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -493,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620801789108</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="modified">
+      <created>1620835941300</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620835941300</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

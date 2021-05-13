@@ -10,9 +10,7 @@ import javafx.stage.FileChooser;
 import javafx.stage.Window;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 
 
 /**
@@ -41,12 +39,12 @@ public class LoadScores6354Controller {
     @FXML
     private TableColumn<Score6354, Integer> colSum;
 
-
     @FXML
-    void reset(){
+    void reset() {
         lblFilename.setText("");
         tvScores.getItems().clear();
     }
+
     @FXML
     void initialize() {
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
@@ -74,7 +72,7 @@ public class LoadScores6354Controller {
         File file = fc.showOpenDialog(Window.impl_getWindows().next());
 
         //文件打开后的操作
-        if (file != null) {
+        if (file != null && file.getName().endsWith(".txt")) {
             reset();
             readFile(file);
         }
@@ -91,12 +89,11 @@ public class LoadScores6354Controller {
                             Integer.parseInt(info[2]), Integer.parseInt(info[3])));
                 }
             }
+            //排序
             tvScores.getItems().sort(Comparator.comparingInt(Score6354::getSum).thenComparingInt(Score6354::getMath).reversed());
-            lblFilename.setText(tvScores.getItems().size()+"条学生数据: "+file.getPath());
+            lblFilename.setText(tvScores.getItems().size() + "条学生数据: " + file.getPath());
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
-
 }
