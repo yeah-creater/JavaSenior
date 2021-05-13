@@ -7,6 +7,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.FileChooser;
+import javafx.stage.Stage;
 import javafx.stage.Window;
 
 import java.io.*;
@@ -69,7 +70,7 @@ public class LoadScores6354Controller {
         fc.setInitialDirectory(new File("."));
         fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("文本文件 (*.txt)", "*.txt"));
         fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("所有 (*.*)", "*.*"));
-        File file = fc.showOpenDialog(Window.impl_getWindows().next());
+        File file = fc.showOpenDialog(new Stage());
 
         //文件打开后的操作
         if (file != null && file.getName().endsWith(".txt")) {

@@ -1,0 +1,8 @@
+Score6354(name=王小欧, chinese=78, math=93, english=84, sum=255)
+Score6354(name=牛牛, chinese=95, math=65, english=95, sum=255)
+Score6354(name=陈日出, chinese=85, math=80, english=83, sum=248)
+Score6354(name=秦大江, chinese=81, math=91, english=75, sum=247)
+Score6354(name=孙天地, chinese=91, math=82, english=71, sum=244)
+Score6354(name=张大学, chinese=70, math=80, english=85, sum=235)
+Score6354(name=李小白, chinese=90, math=70, english=75, sum=235)
+Score6354(name=赵小至, chinese=65, math=75, english=73, sum=213)
