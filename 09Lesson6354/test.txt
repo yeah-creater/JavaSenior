@@ -1,8 +1,8 @@
-Score6354(name=王小欧, chinese=78, math=93, english=84, sum=255)
-Score6354(name=牛牛, chinese=95, math=65, english=95, sum=255)
-Score6354(name=陈日出, chinese=85, math=80, english=83, sum=248)
-Score6354(name=秦大江, chinese=81, math=91, english=75, sum=247)
-Score6354(name=孙天地, chinese=91, math=82, english=71, sum=244)
-Score6354(name=张大学, chinese=70, math=80, english=85, sum=235)
-Score6354(name=李小白, chinese=90, math=70, english=75, sum=235)
-Score6354(name=赵小至, chinese=65, math=75, english=73, sum=213)
+Score6354{name=StringProperty [value: 李小白], chinese=IntegerProperty [value: 90], math=IntegerProperty [value: 70], english=IntegerProperty [value: 75]}
+Score6354{name=StringProperty [value: 张大学], chinese=IntegerProperty [value: 70], math=IntegerProperty [value: 80], english=IntegerProperty [value: 85]}
+Score6354{name=StringProperty [value: 牛牛], chinese=IntegerProperty [value: 95], math=IntegerProperty [value: 65], english=IntegerProperty [value: 95]}
+Score6354{name=StringProperty [value: 陈日出], chinese=IntegerProperty [value: 85], math=IntegerProperty [value: 80], english=IntegerProperty [value: 83]}
+Score6354{name=StringProperty [value: 王小欧], chinese=IntegerProperty [value: 78], math=IntegerProperty [value: 93], english=IntegerProperty [value: 84]}
+Score6354{name=StringProperty [value: 赵小至], chinese=IntegerProperty [value: 65], math=IntegerProperty [value: 75], english=IntegerProperty [value: 73]}
+Score6354{name=StringProperty [value: 孙天地], chinese=IntegerProperty [value: 91], math=IntegerProperty [value: 82], english=IntegerProperty [value: 71]}
+Score6354{name=StringProperty [value: 秦大江], chinese=IntegerProperty [value: 81], math=IntegerProperty [value: 91], english=IntegerProperty [value: 75]}

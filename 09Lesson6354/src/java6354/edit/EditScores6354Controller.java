@@ -98,6 +98,14 @@ public class EditScores6354Controller {
             String infos;
             while ((infos = br.readLine()) != null) {
                 String[] info = infos.split(",");
+                try{
+                    for(int i=1;i<info.length;i++){
+                        Integer.parseInt(info[i]);
+                    }
+                }
+                catch (Exception e){
+                    return;
+                }
                 if (info.length == 4) {
                     tvScores.getItems().add(new Score6354(info[0], Integer.parseInt(info[1]),
                             Integer.parseInt(info[2]), Integer.parseInt(info[3])));
