@@ -1,8 +1,10 @@
-Score6354{name=StringProperty [value: 李小白], chinese=IntegerProperty [value: 90], math=IntegerProperty [value: 70], english=IntegerProperty [value: 75]}
-Score6354{name=StringProperty [value: 张大学], chinese=IntegerProperty [value: 70], math=IntegerProperty [value: 80], english=IntegerProperty [value: 85]}
-Score6354{name=StringProperty [value: 牛牛], chinese=IntegerProperty [value: 95], math=IntegerProperty [value: 65], english=IntegerProperty [value: 95]}
-Score6354{name=StringProperty [value: 陈日出], chinese=IntegerProperty [value: 85], math=IntegerProperty [value: 80], english=IntegerProperty [value: 83]}
-Score6354{name=StringProperty [value: 王小欧], chinese=IntegerProperty [value: 78], math=IntegerProperty [value: 93], english=IntegerProperty [value: 84]}
-Score6354{name=StringProperty [value: 赵小至], chinese=IntegerProperty [value: 65], math=IntegerProperty [value: 75], english=IntegerProperty [value: 73]}
-Score6354{name=StringProperty [value: 孙天地], chinese=IntegerProperty [value: 91], math=IntegerProperty [value: 82], english=IntegerProperty [value: 71]}
-Score6354{name=StringProperty [value: 秦大江], chinese=IntegerProperty [value: 81], math=IntegerProperty [value: 91], english=IntegerProperty [value: 75]}
+李小白,90,70,75
+张大学,70,80,85
+==1班
+牛牛,95,65,95
+陈日出,85,80,83
+王小欧,78,93,ghdh
+★*2班
+赵小至,65,75,73
+孙天地,91,82,71
+秦大江,81,91,75
