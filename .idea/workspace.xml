@@ -18,12 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10Lesson6354/10Lesson6354.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10Lesson6354/src/java6354/lesson10/TextFile6354.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10Lesson6354/src/java6354/lesson10/TextFile6354Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10Lesson6354/src/java6354/lesson10/TextFile6354View.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10Lesson6354/src/java6354/lesson10/TextFile6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/10Lesson6354/src/java6354/lesson10/TextFile6354Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,17 +147,6 @@
     <configuration name="WriteFile6336" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WriteFile6336" />
       <module name="09Lesson6354" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -360,7 +344,7 @@
       <workItem from="1620919119272" duration="32000" />
       <workItem from="1621247774767" duration="2208000" />
       <workItem from="1621255814067" duration="1653000" />
-      <workItem from="1621267045518" duration="2018000" />
+      <workItem from="1621267045518" duration="2150000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -516,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621260388559</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="modified">
+      <created>1621269083078</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1621269083078</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
