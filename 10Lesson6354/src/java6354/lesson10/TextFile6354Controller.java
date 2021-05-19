@@ -50,6 +50,7 @@ public class TextFile6354Controller {
 
     @FXML
     void copyFile(ActionEvent event) {
+
         if (!lblTarget.getText().isEmpty() && !lblSource.getText().isEmpty()) {
             taText.setText("");
             try (Scanner in = new Scanner(new FileInputStream(lblSource.getText()));
