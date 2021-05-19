@@ -28,5 +28,8 @@ public class Editor6354 extends Application {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        FXMLLoader loader = new FXMLLoader(url);
+        Editor6354Controller controller = loader.getController();
+
     }
 }

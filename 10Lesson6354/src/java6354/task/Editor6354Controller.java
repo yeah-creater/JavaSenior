@@ -1,7 +1,5 @@
 package java6354.task;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -35,10 +33,13 @@ public class Editor6354Controller {
     void initialize() {
         taText.textProperty().addListener((o,a,b) -> {
             if(!a.equals(b)&&!a.equals("")){
-                System.out.println("12");
                 isChanged=true;
             }
         });
+    }
+    @FXML
+    void setCloseRequest(Stage stage){
+
     }
 
     @FXML
