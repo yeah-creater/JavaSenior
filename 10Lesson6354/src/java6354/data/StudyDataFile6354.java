@@ -11,7 +11,7 @@ import java.io.OutputStream;
 
 public class StudyDataFile6354 {
 
-    private static String path = "data" + File.separator;
+    private static final String path = "data" + File.separator;
 
     /**
      * 字节数组转换为int
@@ -19,7 +19,7 @@ public class StudyDataFile6354 {
      * @param b
      * @return
      */
-    public static int byteArrayToIntXXXX(byte[] b) {
+    public static int byteArrayToInt6354(byte[] b) {
         return b[3] & 0xFF | (b[2] & 0xFF) << 8 | (b[1] & 0xFF) << 16 | (b[0] & 0xFF) << 24;
     }
 
@@ -36,6 +36,9 @@ public class StudyDataFile6354 {
     public static void main(String[] args) throws Exception {
 
         writeIntWithByte6354();
+        readData6354();
+        writeData6354();
+        readIntWithByte6354();
 
     }
 
@@ -71,7 +74,7 @@ public class StudyDataFile6354 {
         // 步骤3：读数据
         byte[] data = new byte[4];
         in.read(data);
-        int i = byteArrayToIntXXXX(data);
+        int i = byteArrayToInt6354(data);
         System.out.println(i);
 
         // 步骤4：关闭流
@@ -86,6 +89,7 @@ public class StudyDataFile6354 {
         // 输出时文件可以不存在，但目录必须存在
         if (!file.getParentFile().exists()) {
             file.getParentFile().mkdirs();
+            System.out.println(file.getAbsolutePath());
         }
         // 步骤2：创建指向文件的数据输出流
         DataOutputStream out = new DataOutputStream(new FileOutputStream(file));
@@ -99,7 +103,7 @@ public class StudyDataFile6354 {
     public static void readData6354() throws Exception {
         // 步骤1：确定输入的源文件
         // File.separator表示跨平台的目录分隔符
-        File file = new File(path + "dataXXXX.dat");
+        File file = new File(path + "data6354.dat");
         // 输入时文件必须存在
         if (!file.exists()) {
             System.out.println("文件不存在！");

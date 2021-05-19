@@ -1,35 +1,10 @@
-package java6354.data;
-
-import java.io.Serializable;
-
-public class Student6354 implements Serializable {
-    private static final long serialVersionUID=1L;
-    private String name;
-    private int age;
-
-    @Override
-    public String toString() {
-       return String.format("name=%s,age=%d",name,age);
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public Student6354(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-}
+李小白,90,70,75
+张大学,70,80,85
+==1班
+牛牛,95,65,95
+陈日出,85,80,83
+王小欧,78,93,ghdh
+★*2班
+赵小至,65,75,73
+孙天地,91,82,71
+秦大江,81,91,75
