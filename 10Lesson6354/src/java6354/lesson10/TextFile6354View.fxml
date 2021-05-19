@@ -42,7 +42,7 @@
       </VBox>
     </top>
     <bottom>
-        <Label text="by 学号：姓名" BorderPane.alignment="CENTER" />
+        <Label text="by 211906354：叶本章" BorderPane.alignment="CENTER" />
     </bottom>
    <center>
       <TextArea fx:id="taText" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
