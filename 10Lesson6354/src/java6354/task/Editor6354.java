@@ -19,17 +19,17 @@ public class Editor6354 extends Application {
     public void start(Stage primaryStage) {
         URL url = getClass().getResource("Editor6354View.fxml");
         Parent root = null;
+        FXMLLoader loader = new FXMLLoader(url);
         try {
-            root = FXMLLoader.load(url);
+            root = loader.load();
             Scene scene = new Scene(root, 600, 400);
             primaryStage.setScene(scene);
             primaryStage.setTitle("文本编辑器");
             primaryStage.show();
+            Editor6354Controller controller = loader.getController();
+            controller.setCloseRequest(primaryStage);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        FXMLLoader loader = new FXMLLoader(url);
-        Editor6354Controller controller = loader.getController();
-
     }
 }
