@@ -19,9 +19,7 @@
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Lesson6354/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09Lesson6354/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10Lesson6354/src/java6354/data/StudyDataFile6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/10Lesson6354/src/java6354/data/StudyDataFile6354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data6354.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/data6354.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10Lesson6354/src/java6354/task/Editor6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/10Lesson6354/src/java6354/task/Editor6354Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,17 +110,29 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudyObjectData6354">
-    <configuration name="CopyFile6336" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CopyFile6336" />
-      <module name="09Lesson6354" />
+  <component name="RunManager" selected="Application.Editor6354">
+    <configuration name="Count6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.generic.Count6354" />
+      <module name="06Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditScores6344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EditScores6344" />
-      <module name="09Lesson6354" />
+    <configuration name="Editor6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.task.Editor6354" />
+      <module name="10Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Editor6354" />
+        <item itemvalue="Application.Count6354" />
         <item itemvalue="Application.StudyObjectData6354" />
         <item itemvalue="Application.StudyDataFile6354" />
         <item itemvalue="Application.TextFile6354" />
-        <item itemvalue="Application.EditScores6344" />
-        <item itemvalue="Application.CopyFile6336" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +382,12 @@
       <workItem from="1621255814067" duration="1653000" />
       <workItem from="1621267045518" duration="2150000" />
       <workItem from="1621404738702" duration="19000" />
-      <workItem from="1621431226569" duration="1630000" />
+      <workItem from="1621431226569" duration="2325000" />
+      <workItem from="1621485493007" duration="606000" />
+      <workItem from="1621497139669" duration="134000" />
+      <workItem from="1621500526981" duration="157000" />
+      <workItem from="1621518982439" duration="606000" />
+      <workItem from="1621591503455" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -535,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621269083078</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="modified">
+      <created>1621433028384</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1621433028384</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

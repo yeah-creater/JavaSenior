@@ -3,6 +3,7 @@ package java6354.task;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -15,6 +16,9 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/**
+ * @author yeah
+ */
 public class Editor6354Controller {
 
     @FXML
@@ -40,11 +44,18 @@ public class Editor6354Controller {
         });
     }
     @FXML
+    public void alertTips(String warning) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("文本编辑器的关闭提示");
+        alert.setContentText(warning);
+        alert.show();
+    }
+    @FXML
     void setCloseRequest(Stage stage){
         stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
             @Override
             public void handle(WindowEvent event) {
-                System.out.println("11");
+                alertTips("是否将未存盘的修改保存到"+tfFilename.getText());
             }
         });
 
