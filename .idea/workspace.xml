@@ -17,23 +17,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs___2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/11Lesson6354.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/libs/mysql-connector-java-8.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/libs/sqlite-jdbc-3.31.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/BatchDemo6354.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/JDBCDemo6354.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/JdbcUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/Select6354.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/SimpleDML6354.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/StudentList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data1189.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10Lesson6354/src/java6354/task/Editor6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/10Lesson6354/src/java6354/task/Editor6354Controller.java" afterDir="false" />
-    </list>
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,15 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -403,7 +385,7 @@
       <workItem from="1621780512527" duration="1389000" />
       <workItem from="1621844410136" duration="3235000" />
       <workItem from="1621948355720" duration="8985000" />
-      <workItem from="1621987208232" duration="5567000" />
+      <workItem from="1621987208232" duration="5691000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -580,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621591909912</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="modified">
+      <created>1621992848027</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621992848027</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

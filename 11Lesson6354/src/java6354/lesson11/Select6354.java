@@ -93,6 +93,6 @@ public class Select6354 {
     }
 
     public static void main(String[] args) {
-        find6354(Student6354.class, "select id,sno,sname from xslist where sname like '%志%' and id<=?", 100);
+        find6354(Student6354.class, "select id,sno,sname from xslist where sname like ? and id<=?","%志%", 100);
     }
 }
