@@ -4,8 +4,6 @@ import java.lang.reflect.Field;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
-import java.sql.SQLException;
-import java.util.ArrayList;
 
 /**
  * @author: yeah
@@ -86,8 +84,8 @@ public class Select6354 {
             }
 
 
-        } catch (Exception throwables) {
-            throwables.printStackTrace();
+        } catch (Exception e) {
+           e.printStackTrace();
         }
 
     }
