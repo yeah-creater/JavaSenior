@@ -1,7 +1,6 @@
 package java6354.lesson11;
 
 import java.sql.Connection;
-import java.sql.Statement;
 
 /**
  * @author: yeah
@@ -32,18 +31,8 @@ public class SimpleDML6354 {
         return false;
     }
 
-    private static boolean create6354() {
-        try (Connection conn = JdbcUtils.getDriverConnection()) {
-            Statement statement = conn.createStatement();
-            boolean res = statement.execute(SQL_CREATE);
-            //释放资源
-            statement.close();
-            JdbcUtils.releaseResources();
-            return res;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return false;
+    private static boolean create6354(String sql) {
+       return comOpe(sql);
     }
 
     private static boolean insert6354(String sql, Object... args) {
@@ -59,7 +48,7 @@ public class SimpleDML6354 {
     }
 
     public static void main(String[] args) {
-//        if (create6354()) {
+//        if (create6354(SQL_CREATE)) {
 //            System.out.println("创建成功");
 //        } else {
 //            System.out.println("表已存在,无需创建");

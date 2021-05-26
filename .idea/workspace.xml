@@ -17,7 +17,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="" />
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/SimpleDML6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/SimpleDML6354.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +112,7 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Select6354">
+  <component name="RunManager" selected="Application.SimpleDML6354">
     <configuration name="BatchDemo6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lesson11.BatchDemo6354" />
       <module name="11Lesson6354" />
@@ -169,11 +172,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleDML6354" />
         <item itemvalue="Application.Select6354" />
         <item itemvalue="Application.BatchDemo6354" />
-        <item itemvalue="Application.SimpleDML6354" />
         <item itemvalue="Application.JDBCDemo6354" />
         <item itemvalue="Application.TextFile6348" />
       </list>
@@ -376,6 +392,7 @@
       <workItem from="1621948355720" duration="8985000" />
       <workItem from="1621987208232" duration="5691000" />
       <workItem from="1621994010310" duration="89000" />
+      <workItem from="1622002349559" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -566,7 +583,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621994077432</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="modified">
+      <created>1622002433283</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1622002433283</updated>
+    </task>
+    <task id="LOCAL-00029" summary="modified">
+      <created>1622002539395</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1622002539395</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
