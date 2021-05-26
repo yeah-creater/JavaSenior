@@ -4,7 +4,6 @@ import java.lang.reflect.Field;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
-
 /**
  * @author: yeah
  */
@@ -51,7 +50,6 @@ class Student6354 {
         this.sno = sno;
     }
 }
-
 /**
  * @author yeah
  */
