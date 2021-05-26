@@ -18,6 +18,7 @@ import java.util.Scanner;
 
 /**
  * @author yeah
+ * 摸鱼...
  */
 public class Editor6354Controller {
 
