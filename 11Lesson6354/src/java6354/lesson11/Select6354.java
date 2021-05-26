@@ -82,8 +82,6 @@ public class Select6354 {
                 }
                 System.out.println(t);
             }
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }

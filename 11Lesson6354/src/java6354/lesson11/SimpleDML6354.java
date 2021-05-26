@@ -46,6 +46,12 @@ public class SimpleDML6354 {
     private static boolean delete6354(String sql, Object... args) {
         return comOpe(sql, args);
     }
+    private static void execute6354(){
+        //create6354(SQL_CREATE);
+        //insert6354()
+        update6354("update xslist set lx1 = id*2 ,lx2=lx1+id");
+        delete6354("delete from xslist where lx1 % ? = 0", 3);
+    }
 
     public static void main(String[] args) {
 //        if (create6354(SQL_CREATE)) {
@@ -53,10 +59,9 @@ public class SimpleDML6354 {
 //        } else {
 //            System.out.println("表已存在,无需创建");
 //        }
-//        insert6354("insert into xslist(sno,sname) values(?,?)", "yz", "211906654");
-//        insert6354("insert into xslist(sno,sname) values(?,?)", "cjh", "211916654");
-//        update6354("update xslist set lx1 = id*2 ,lx2=lx1+id");
-//        System.out.println(delete6354("delete from xslist where lx1 % ? = 0", 3));
+//       update6354("update xslist set lx1 = id*2 ,lx2=lx1+id");
+//      delete6354("delete from xslist where lx1 % ? = 0", 3);
+        execute6354();
 
     }
 }
