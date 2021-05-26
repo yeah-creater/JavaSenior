@@ -69,6 +69,5 @@ public class SimpleDML6354 {
 //        update6354("update xslist set lx1 = id*2 ,lx2=lx1+id");
 //        System.out.println(delete6354("delete from xslist where lx1 % ? = 0", 3));
 
-
     }
 }

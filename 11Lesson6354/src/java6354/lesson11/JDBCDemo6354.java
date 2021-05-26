@@ -10,7 +10,7 @@ public class JDBCDemo6354 {
     // 172.23.45.95
     private static final String URL = "jdbc:mysql://localhost:3306/database1?serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PW = "ybz666yeah";
+    private static final String PW = "*******";
     private static final String DRIVER="com.mysql.cj.jdbc.Driver";
 
 

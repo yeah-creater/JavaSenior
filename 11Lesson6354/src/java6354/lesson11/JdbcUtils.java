@@ -15,7 +15,7 @@ public class JdbcUtils {
     public static Connection getDriverConnection() throws Exception{
         String url = "jdbc:mysql://localhost:3306/database1?serverTimezone=UTC";
         String user = "root";
-        String password = "ybz666yeah";
+        String password = "*******";
         Class.forName("com.mysql.cj.jdbc.Driver");
         con = DriverManager.getConnection(url, user, password);
         return con;

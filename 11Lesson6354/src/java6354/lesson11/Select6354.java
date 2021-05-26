@@ -85,12 +85,12 @@ public class Select6354 {
 
 
         } catch (Exception e) {
-           e.printStackTrace();
+            e.printStackTrace();
         }
 
     }
 
     public static void main(String[] args) {
-        find6354(Student6354.class, "select id,sno,sname from xslist where sname like ? and id<=?","%志%", 100);
+        find6354(Student6354.class, "select id,sno,sname from xslist where sname like ? and id<=?", "%志%", 100);
     }
 }
