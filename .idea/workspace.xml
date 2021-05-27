@@ -18,12 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/libs/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/libs/druid-1.1.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Dao6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Student6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11Lesson6354/config/database6354.properties" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/config/database6354.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/DBUtil6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/DBUtil6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/JdbcUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,10 +100,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\config" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\java6354\dao" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\java6354" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\10Lesson6354\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -402,7 +400,10 @@
       <workItem from="1621948355720" duration="8985000" />
       <workItem from="1621987208232" duration="5691000" />
       <workItem from="1621994010310" duration="89000" />
-      <workItem from="1622002349559" duration="4551000" />
+      <workItem from="1622002349559" duration="4770000" />
+      <workItem from="1622008978072" duration="20000" />
+      <workItem from="1622038285487" duration="2098000" />
+      <workItem from="1622091962081" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -628,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622004943532</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="modified">
+      <created>1622006967813</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1622006967813</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,8 +1,6 @@
 package java6354.dao;
 
-import org.sqlite.core.DB;
 
-import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
