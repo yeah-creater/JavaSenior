@@ -18,10 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Student6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/IStudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/StudentDaoImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/DBUtil6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/DBUtil6354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/lesson11/JdbcUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="JavaFXApplication" />
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -403,7 +403,7 @@
       <workItem from="1622002349559" duration="4770000" />
       <workItem from="1622008978072" duration="20000" />
       <workItem from="1622038285487" duration="2098000" />
-      <workItem from="1622091962081" duration="307000" />
+      <workItem from="1622091962081" duration="3838000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -636,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622006967813</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="modified">
+      <created>1622092485115</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1622092485115</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
