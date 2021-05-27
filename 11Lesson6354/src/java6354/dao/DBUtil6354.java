@@ -17,25 +17,42 @@ public class DBUtil6354 {
     static DataSource dataSource;
     static Connection conn;
     static PreparedStatement ps;
+
     static {
         InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("config/database6354.properties");
-        Properties pros=new Properties();
+        Properties pros = new Properties();
         try {
             pros.load(is);
             dataSource = DruidDataSourceFactory.createDataSource(pros);
-            conn=dataSource.getConnection();
+            conn = dataSource.getConnection();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    public static Connection getConnection(){
+
+    public static Connection getConnection() {
+
+        InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("config/database6354.properties");
+        Properties pros = new Properties();
+        try {
+            pros.load(is);
+            dataSource = DruidDataSourceFactory.createDataSource(pros);
+            conn = dataSource.getConnection();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         return conn;
     }
 
-    public static void close(){
+    public static void close() {
         try {
-            Objects.requireNonNull(ps).close();
-            Objects.requireNonNull(conn).close();
+            if (ps != null) {
+                Objects.requireNonNull(ps).close();
+            }
+            if(conn!=null) {
+                Objects.requireNonNull(conn).close();
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -10,20 +10,21 @@ import java.util.List;
  * @author: yeah
  */
 public class BaseDao {
-    public boolean update(String sql, Object... args) {
+    public int update(String sql, Object... args) {
         DBUtil6354.conn = DBUtil6354.getConnection();
         try {
             DBUtil6354.ps = DBUtil6354.conn.prepareStatement(sql);
             for (int i = 0; i < args.length; i++) {
                 DBUtil6354.ps.setObject(i + 1, args[i]);
             }
-            return DBUtil6354.ps.execute();
+            int res = DBUtil6354.ps.executeUpdate();
+            return res>0?1:-1;
         } catch (SQLException troubles) {
             troubles.printStackTrace();
         } finally {
             DBUtil6354.close();
         }
-        return false;
+        return -1;
     }
 
     public <T> T query(Class<T> clazz, String sql, Object... args) {
@@ -43,15 +44,19 @@ public class BaseDao {
             while (rs.next()) {
                 for (int i = 0; i < columnCount; i++) {
                     //该行列的值
-                    Object obj = rs.getObject(i);
+                    Object obj = rs.getObject(i+1);
+                    if(obj==null) {
+                        continue;
+                    }
                     //该列的列名  要求数据库列名和对象属性名一样
                     String columnLabel = rsmd.getColumnLabel(i + 1);
                     Field filed = clazz.getDeclaredField(columnLabel);
                     filed.setAccessible(true);
                     filed.set(t, obj);
                 }
+                return t;
             }
-            return t;
+
         } catch (Exception troubles) {
             troubles.printStackTrace();
         } finally {

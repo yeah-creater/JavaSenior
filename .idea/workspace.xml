@@ -18,10 +18,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/IStudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/StudentDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/StudentDao6354Imp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/11Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/11Lesson6354.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/DBUtil6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/DBUtil6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Dao6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Dao6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/IStudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/IStudentDao6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Student6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Student6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/StudentDaoImp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,45 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCDemo6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson11.JDBCDemo6354" />
-      <module name="11Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Select6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson11.Select6354" />
-      <module name="11Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleDML6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson11.SimpleDML6354" />
-      <module name="11Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -193,13 +159,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dao6354" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="11Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java6354.dao" />
+      <option name="MAIN_CLASS_NAME" value="java6354.dao.Dao6354" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dao6354.testAdd6354" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="11Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java6354.dao" />
+      <option name="MAIN_CLASS_NAME" value="java6354.dao.Dao6354" />
+      <option name="METHOD_NAME" value="testAdd6354" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dao6354.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="11Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java6354.dao" />
+      <option name="MAIN_CLASS_NAME" value="java6354.dao.Dao6354" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Dao6354" />
+        <item itemvalue="JUnit.Dao6354.testUpdate" />
+        <item itemvalue="JUnit.Dao6354" />
+        <item itemvalue="JUnit.Dao6354.testAdd6354" />
         <item itemvalue="Application.DBUtil6354" />
-        <item itemvalue="Application.Select6354" />
-        <item itemvalue="Application.SimpleDML6354" />
-        <item itemvalue="Application.JDBCDemo6354" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +416,7 @@
       <workItem from="1622002349559" duration="4770000" />
       <workItem from="1622008978072" duration="20000" />
       <workItem from="1622038285487" duration="2098000" />
-      <workItem from="1622091962081" duration="3838000" />
+      <workItem from="1622091962081" duration="9736000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -643,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622092485115</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="modified">
+      <created>1622095858568</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1622095858568</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

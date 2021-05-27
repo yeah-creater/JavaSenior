@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * @author: yeah
  */
-public interface IStudentDao {
+public interface IStudentDao6354 {
     /**
      * 功能：向数据表xslist中添加一条记录
      * @param stu 参数student对象中包含了新增记录中各字段的内容

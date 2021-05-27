@@ -1,7 +1,9 @@
 package java6354.dao;
 
 
+
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * @author: yeah
@@ -20,7 +22,23 @@ public class Dao6354 {
             DBUtil6354.close();
         }
     }
-    public static void main(String[] args) throws Exception {
-        delete6354(2);
+
+    public static void main(String[] args) {
+        Student6354 stu=new Student6354();
+        stu.setSno("1244");
+        stu.setSname("哈哈哈哈");
+        StudentDao6354Imp studentDao6354Imp = new StudentDao6354Imp();
+//        System.out.println("新id为"+studentDao6354Imp.add6354(stu));
+//        System.out.println(studentDao6354Imp.delete6364(85));
+//        System.out.println(studentDao6354Imp.delete6364(100));
+//        System.out.println(studentDao6354Imp.update6354(4, stu));
+//        System.out.println(studentDao6354Imp.update6354(1, stu));
+//        System.out.println(studentDao6354Imp.findStudent6354("211906354"));
+//        System.out.println(studentDao6354Imp.findStudent6354("211")==null);
+//        List<Student6354> all6354 = studentDao6354Imp.findAll6354();
+//        for(Student6354 stu6354:all6354){
+//            System.out.println(stu6354);
+//        }
     }
+
 }
