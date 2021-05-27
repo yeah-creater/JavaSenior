@@ -8,12 +8,11 @@ import java.util.List;
 public class StudentDao6354Imp extends BaseDao implements IStudentDao6354 {
     @Override
     public int add6354(Student6354 stu) {
-
         String sno = stu.getSno();
         String sname = stu.getSname();
         String sql = "INSERT INTO xslist(sno,sname) VALUES(?,?)";
         if(update(sql, sno, sname)==1) {
-            //学号默认就是主键了呀，虽然数据库没设置
+            //学号默认也是主键了呀，虽然数据库没设置
             sql = "SElECT * FROM xslist WHERE sno = ?";
             Student6354 stu1 = query(Student6354.class, sql, sno);
             return stu1.getId();

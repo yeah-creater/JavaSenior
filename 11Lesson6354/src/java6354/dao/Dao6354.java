@@ -1,9 +1,6 @@
 package java6354.dao;
 
-
-
 import java.sql.SQLException;
-import java.util.List;
 
 /**
  * @author: yeah
@@ -15,8 +12,8 @@ public class Dao6354 {
             DBUtil6354.ps=DBUtil6354.conn.prepareStatement("delete from xslist where id=?");
             DBUtil6354.ps.setObject(1,id);
             DBUtil6354.ps.execute();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException troubles) {
+            troubles.printStackTrace();
         }
         finally {
             DBUtil6354.close();
