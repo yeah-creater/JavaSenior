@@ -9,6 +9,9 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 
+/**
+ * @author yeah
+ */
 public class Editor6354 extends Application {
 
     public static void main(String[] args) {
