@@ -29,7 +29,6 @@ public class EditStudent6354Controller {
     @FXML
     private BorderPane root;
 
-
     //子窗口
 
     @FXML
@@ -61,8 +60,8 @@ public class EditStudent6354Controller {
         colLx1.setCellValueFactory(new PropertyValueFactory<>("lx1"));
         colLx2.setCellValueFactory(new PropertyValueFactory<>("lx2"));
         //---万恶之源
-//        List<Student6354> allStudents = new StudentDao6354Imp().findAll6354();
-//        tvStudents.getItems().setAll(allStudents);
+        List<Student6354> allStudents = new StudentDao6354Imp().findAll6354();
+        tvStudents.getItems().setAll(allStudents);
         //---------
     }
 
@@ -82,8 +81,6 @@ public class EditStudent6354Controller {
                 }
             }
         });
-
-
     }
 
     @FXML
@@ -110,7 +107,9 @@ public class EditStudent6354Controller {
     void add(ActionEvent event) {
         createDialog6354();
         dialogController.initAdd();
+        //用showAndWait()方法显示对话框，并等待对话框关闭执行以下操作
         dialog.showAndWait();
+        //关闭对话框回到父窗口后，通过getStudent()方法得到在对话框中编辑的结果
         Student6354 newStu = dialogController.getStudent();
         //stu不为空 说明点击了增加按钮
         if (newStu != null) {

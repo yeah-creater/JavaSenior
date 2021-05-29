@@ -49,7 +49,7 @@ public class Dialog6354Controller {
         tfLx2.setText("");
     }
     @FXML
-    void fill(){
+    void fill(Student6354 stu){
         tfSno.setText(stu.getSno());
         tfSname.setText(stu.getSname());
         tfLx1.setText(stu.getLx1() + "");
@@ -84,7 +84,7 @@ public class Dialog6354Controller {
     void initChange(Student6354 stu) {
         this.stu = null;
         btnYes.setText("修改");
-        fill();
+        fill(stu);
     }
 
     @FXML
