@@ -1,4 +1,4 @@
-package java6354.dao;
+package java6354.gui.dao;
 
 import java.util.List;
 
@@ -26,7 +26,7 @@ public interface IStudentDao6354 {
      * @param stu 表示用newStudent对象中各属性的值，修改xslist表中对应的字段
      * @return 返回1表示已修改，返回-1表示未修改
      */
-    int update6354(int id, Student6354 stu);
+    int update6354(int id,Student6354 stu);
 
     /**
      * 从数据表xslist中读取数据加载到List<StudentXXXX>集合中

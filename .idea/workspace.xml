@@ -18,8 +18,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/Dialog6354Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/Dialog6354View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/EditStudent6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/EditStudent6354Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/EditStudent6354View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/dao/DBUtil6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/dao/IStudentDao6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/dao/Student6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/gui/dao/StudentDao6354Imp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10Lesson6354/src/java6354/task/Editor6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/10Lesson6354/src/java6354/task/Editor6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/DBUtil6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/DBUtil6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Dao6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Dao6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/IStudentDao6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/IStudentDao6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Student6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/Student6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/StudentDao6354Imp.java" beforeDir="false" afterPath="$PROJECT_DIR$/11Lesson6354/src/java6354/dao/StudentDao6354Imp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +45,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="JavaFXApplication" />
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -47,6 +62,14 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/05Lesson6354/src/java6354/sort/list/ListSort6354View.fxml" root0="SKIP_HIGHLIGHTING" />
@@ -76,7 +99,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/11Lesson6354/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11Lesson6354/src/java6354/dao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -90,11 +113,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\java6354\dao" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\java6354\gui" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\libs" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\java6354\lesson11" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\10Lesson6354\src" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\10Lesson6354\src\java6354\lesson10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src" />
@@ -112,26 +135,13 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dao6354">
-    <configuration name="DBUtil6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.dao.DBUtil6354" />
-      <module name="11Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EditStudent6354">
     <configuration name="Dao6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.dao.Dao6354" />
       <module name="11Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.dao.*" />
+          <option name="PATTERN" value="java6354.gui.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,15 +149,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="EditStudent6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.gui.EditStudent6354" />
+      <module name="11Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.task.Editor6354" />
+      <module name="10Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,7 +190,7 @@
       <module name="11Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.dao.*" />
+          <option name="PATTERN" value="java6354.gui.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,27 +201,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dao6354.testAdd6354" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="11Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java6354.dao" />
-      <option name="MAIN_CLASS_NAME" value="java6354.dao.Dao6354" />
-      <option name="METHOD_NAME" value="testAdd6354" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Dao6354.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="11Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.dao.*" />
+          <option name="PATTERN" value="java6354.gui.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EditStudent6354" />
+        <item itemvalue="Application.Editor6354" />
         <item itemvalue="Application.Dao6354" />
         <item itemvalue="JUnit.Dao6354.testUpdate" />
         <item itemvalue="JUnit.Dao6354" />
-        <item itemvalue="JUnit.Dao6354.testAdd6354" />
-        <item itemvalue="Application.DBUtil6354" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +432,8 @@
       <workItem from="1622105767166" duration="577000" />
       <workItem from="1622130439880" duration="157000" />
       <workItem from="1622172774570" duration="21000" />
-      <workItem from="1622193126483" duration="489000" />
+      <workItem from="1622193126483" duration="510000" />
+      <workItem from="1622298450367" duration="10182000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -675,7 +694,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622102617879</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="modified">
+      <created>1622193632991</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1622193632991</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
