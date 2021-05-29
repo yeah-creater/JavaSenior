@@ -48,6 +48,13 @@ public class Dialog6354Controller {
         tfLx1.setText("");
         tfLx2.setText("");
     }
+    @FXML
+    void fill(){
+        tfSno.setText(stu.getSno());
+        tfSname.setText(stu.getSname());
+        tfLx1.setText(stu.getLx1() + "");
+        tfLx2.setText(stu.getLx2() + "");
+    }
 
     @FXML
     public void alertWindow(String title, String waring) {
@@ -77,10 +84,7 @@ public class Dialog6354Controller {
     void initChange(Student6354 stu) {
         this.stu = null;
         btnYes.setText("修改");
-        tfSno.setText(stu.getSno());
-        tfSname.setText(stu.getSname());
-        tfLx1.setText(stu.getLx1() + "");
-        tfLx2.setText(stu.getLx2() + "");
+        fill();
     }
 
     @FXML
@@ -95,6 +99,7 @@ public class Dialog6354Controller {
         String sname = tfSname.getText();
         String lx1 = tfLx1.getText();
         String lx2 = tfLx2.getText();
+        //判断信息的合法性及赋值给目标对象
         if (check(sname, sno, lx1, lx2)) {
             stu = new Student6354(sno, sname, Integer.parseInt(lx1), Integer.parseInt(lx2));
             alertWindow("学生信息提醒", "添加或修改成功");

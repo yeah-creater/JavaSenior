@@ -29,8 +29,13 @@ public class EditStudent6354Controller {
     @FXML
     private BorderPane root;
 
+
+    //子窗口
+
     @FXML
     private Stage dialog;
+    //子窗口控制器
+
     @FXML
     private Dialog6354Controller dialogController;
 
@@ -110,6 +115,7 @@ public class EditStudent6354Controller {
         //stu不为空 说明点击了增加按钮
         if (newStu != null) {
             tvStudents.getItems().add(newStu);
+            tvStudents.getSelectionModel().select(newStu);
         }
 
     }
