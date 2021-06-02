@@ -17,12 +17,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="modified">
+      <change afterPath="$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Lesson6354/src/java6354/lesson12/CourseStream6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/12Lesson6354/src/java6354/lesson12/CourseStream6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,20 @@
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\java6354\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CourseStream6354 (1)">
+  <component name="RunManager" selected="Application.Counter6354">
+    <configuration name="Counter6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.task.Counter6354" />
+      <module name="12Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CourseStream6354 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.task.CourseStream6354" />
       <module name="12Lesson6354" />
@@ -144,19 +155,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java6354.lesson12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dao6374" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dao.Dao6374" />
-      <module name="11Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Counter6354" />
         <item itemvalue="Application.CourseStream6354 (1)" />
         <item itemvalue="Application.CourseStream6354" />
         <item itemvalue="Application.SimpleStream6354" />
         <item itemvalue="Application.Dao6411" />
-        <item itemvalue="Application.Dao6374" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +419,7 @@
       <workItem from="1622545289782" duration="27000" />
       <workItem from="1622553228324" duration="104000" />
       <workItem from="1622557985996" duration="3211000" />
-      <workItem from="1622592380299" duration="1823000" />
+      <workItem from="1622592380299" duration="6060000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -710,7 +708,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622310199364</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="modified">
+      <created>1622594226105</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1622594226105</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -737,25 +742,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="371" key="GridCell.Tab.0.bottom" timestamp="1622594167976">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1622598694307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622594167976" />
-    <state width="1877" height="371" key="GridCell.Tab.0.center" timestamp="1622594167976">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622598694307" />
+    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1622598694307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="371" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622594167976" />
-    <state width="1877" height="371" key="GridCell.Tab.0.left" timestamp="1622594167976">
+    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622598694307" />
+    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1622598694307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="371" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622594167976" />
-    <state width="1877" height="371" key="GridCell.Tab.0.right" timestamp="1622594167976">
+    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622598694307" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1622598694307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="371" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622594167976" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622598694307" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1622598431683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622598431683" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1622598431683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622598431683" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1622598431683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622598431683" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1622598431683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622598431683" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1622592395915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622592395915" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1622594250126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1622594250126" />
   </component>
 </project>
