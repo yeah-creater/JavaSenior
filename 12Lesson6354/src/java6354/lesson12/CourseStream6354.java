@@ -34,6 +34,7 @@ public class CourseStream6354 {
         listTopic();
         System.out.println("共" + getCourses().stream().filter(c -> c.score >= score).count() + "门");
         getCourses().stream().filter(c -> c.score >= score).forEach(System.out::println);
+        Stream<Course6354> stream = getCourses().stream();
 
         Optional<Course6354> max = getCourses().stream().max(Comparator.comparingInt(s -> s.score));
         Optional<Course6354> min = getCourses().stream().min(Comparator.comparingInt(s -> s.score));
