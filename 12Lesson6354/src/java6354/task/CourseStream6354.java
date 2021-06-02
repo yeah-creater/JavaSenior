@@ -1,9 +1,13 @@
-package java6354.lesson12;
+package java6354.task;
 
+
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+import org.w3c.dom.ls.LSOutput;
 
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
@@ -11,41 +15,23 @@ import java.util.stream.Stream;
  * @author yeah
  */
 public class CourseStream6354 {
-    static int score = 85;
-    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
-    static void listTopic() throws Exception {
-        bw.write("=======" + score + "分以上课程======");
-        bw.newLine();
-        bw.flush();
-    }
-
     /**
-     * 将CourseStreamXXXX.java复制到当前包中，在主方法中用StreamAPI提供的方法，对getCourses()返回的集合进行如下操作，运行效果如下图所示：
-     * （1）列出85分以上的课程名单，统计并输出课程数
-     * （2）计算并输出所有课程的平均值
-     * （3）找出最高分的课程
-     * （4）找出最低分的课程
-     *
+     * （1）按开课学期分组
+     * （2）统计并列出课程清单，课程清单按成绩排序
      * @param args
      */
 
-    public static void main(String[] args) throws Exception {
-        listTopic();
-        System.out.println("共" + getCourses().stream().filter(c -> c.score >= score).count() + "门");
-        getCourses().stream().filter(c -> c.score >= score).forEach(System.out::println);
+    public static void main(String[] args)  {
+        Map<String, List<Course6354>> result = getCourses().stream().collect(Collectors.groupingBy(Course6354::getTerm));
+        //key流
+        Stream<String> keyResult = result.keySet().stream().sorted();
+        for(Object term:keyResult.toArray()){
+            System.out.println("=====学期: "+term+"=====");
+            System.out.println("共" + (long) result.get(term).size() + "门课程,"+" 平均分"+
+                    result.get(term).stream().mapToInt(s->s.score).average().orElse(0.00));
+            result.get(term).forEach(System.out::println);
+        }
 
-        Optional<Course6354> max = getCourses().stream().max(Comparator.comparingInt(s -> s.score));
-        Optional<Course6354> min = getCourses().stream().min(Comparator.comparingInt(s -> s.score));
-        OptionalDouble average = getCourses().stream().mapToInt(s -> s.score).average();
-
-        System.out.printf("[1]所有课程的平均值: %.2f\n", average.orElse(0.00));
-
-        System.out.println("[2]最高分的课程:");
-        getCourses().stream().filter(s -> s.score == max.get().score).forEach(System.out::println);
-
-        System.out.println("[3]最低分的课程:");
-        getCourses().stream().filter(s -> s.score == min.get().score).forEach(System.out::println);
 
     }
 
@@ -58,7 +44,7 @@ public class CourseStream6354 {
         courses.add(new Course6354("C012", "软件测试", "3下", 2, 72));
         courses.add(new Course6354("C001", "Java程序高级开发", "3上", 2, 83));
         courses.add(new Course6354("0003", "大学物理", "2上", 2, 77));
-        courses.add(new Course6354("C002", "软件工程", " 3下", 3, 75));
+        courses.add(new Course6354("C002", "软件工程", "3下", 3, 75));
         courses.add(new Course6354("C011", "移动项目Dev", "3下", 2, 87));
         courses.add(new Course6354("B001", "操作系统", "2下", 3, 90));
         courses.add(new Course6354("A005", "算法与数据结构", "2上", 3, 82));
