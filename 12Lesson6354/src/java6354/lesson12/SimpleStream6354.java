@@ -69,6 +69,6 @@ public class SimpleStream6354 {
 
         outputAndGetSum(getRandomNumbers(0, 600, 400));
         time2 = System.currentTimeMillis();
-        System.out.println((time2 - time1) + "ms");
+        // System.out.println((time2 - time1) + "ms");
     }
 }
