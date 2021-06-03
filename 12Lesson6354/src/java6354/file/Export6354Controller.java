@@ -52,6 +52,7 @@ public class Export6354Controller {
             //设置可按按钮
             btnExport.setDisable(false);
             tfDir.setText(dir.getAbsolutePath());
+            lblExport.setText("");
         }
     }
 
@@ -65,12 +66,13 @@ public class Export6354Controller {
     }
 
     @FXML
-    boolean checkPost(File file, String[] kinds) {
+    boolean checkSuffix(File file, String[] kinds) {
         if (tfSuffix.getText().trim().isEmpty()) {
             return true;
         }
         return Arrays.stream(kinds).anyMatch(k -> file.getName().endsWith(k));
     }
+
 
     @FXML
     void selectFile(File desDir, String[] kinds) {
@@ -85,7 +87,7 @@ public class Export6354Controller {
                 File[] subSubFiles = subDir.listFiles();
                 if (subSubFiles != null) {
                     //保存到目标文件&&统计数量
-                    Arrays.stream(subSubFiles).filter(ff -> checkPost(ff, kinds) && ff.isFile()).forEach(fff -> {
+                    Arrays.stream(subSubFiles).filter(ff -> checkSuffix(ff, kinds) && ff.isFile()).forEach(fff -> {
                         String filePath = desPath + "/" + fff.getName();
                         String srcPath = fff.getAbsolutePath();
                         //文件名相同我就偷个懒 覆盖了
