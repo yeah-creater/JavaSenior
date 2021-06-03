@@ -1,10 +1,7 @@
 package java6354.task;
-
-
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 
 /**
  * @author yeah
@@ -27,10 +24,7 @@ public class CourseStream6354 {
             result.get(term).forEach(System.out::println);
         }
 
-
-
     }
-
     private static List<Course6354> getCourses() {
         List<Course6354> courses = new ArrayList<Course6354>();
         courses.add(new Course6354("A001", "C程序设计基础", "1上", 4, 80));
@@ -53,7 +47,6 @@ public class CourseStream6354 {
         courses.add(new Course6354("B005", "计算机数组原理", "2上", 4, 78));
         return courses;
     }
-
     private static class Course6354 {
         private String no;//课程编号
         private String name;//课程名称

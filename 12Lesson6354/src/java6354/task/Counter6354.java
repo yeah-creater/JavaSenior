@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * @author yeah
+ */
 public class Counter6354 {
     /**
      * （1）从键盘输入字符串
@@ -21,7 +24,6 @@ public class Counter6354 {
                 thenComparing(Object::toString)).forEach(s -> {
             System.out.println(s + ":" + map.get(s).size());
         });
-
 
     }
 }

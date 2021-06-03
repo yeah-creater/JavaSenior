@@ -18,11 +18,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileSummary6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12Lesson6354/src/java6354/file/Export6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/12Lesson6354/src/java6354/file/Export6354Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/05Lesson6354/src/java6354/sort/list/ListSort6354View.fxml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/file/Export6354Controller.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pL1w05TYyiAg2UES2S6jWL9Ail" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,7 +100,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -125,6 +130,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.FileSummary6354">
+    <configuration name="Counter6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.task.Counter6354" />
+      <module name="12Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CourseStream6354 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.task.CourseStream6354" />
       <module name="12Lesson6354" />
@@ -171,19 +189,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleStream6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson12.SimpleStream6354" />
-      <module name="12Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lesson12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -201,9 +206,9 @@
       <list>
         <item itemvalue="Application.FileSummary6354" />
         <item itemvalue="Application.Export6354" />
+        <item itemvalue="Application.Counter6354" />
         <item itemvalue="Application.CourseStream6354 (1)" />
         <item itemvalue="Application.CourseStream6354" />
-        <item itemvalue="Application.SimpleStream6354" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +433,7 @@
       <workItem from="1622623098276" duration="707000" />
       <workItem from="1622632472198" duration="12000" />
       <workItem from="1622646214849" duration="6305000" />
-      <workItem from="1622694451401" duration="11699000" />
+      <workItem from="1622694451401" duration="13927000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -724,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622698448313</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="modified">
+      <created>1622709018088</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1622709018088</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
