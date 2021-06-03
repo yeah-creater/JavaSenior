@@ -28,6 +28,7 @@ public class CourseStream6354 {
         }
 
 
+
     }
 
     private static List<Course6354> getCourses() {
@@ -48,7 +49,7 @@ public class CourseStream6354 {
         courses.add(new Course6354("B003", "网络基础", "2下", 3, 75));
         courses.add(new Course6354("0001", "大学英语", "1上", 3, 80));
         courses.add(new Course6354("0002", "高等数学", "1下", 2, 85));
-        courses.add(new Course6354("B004", "计算机net", "1下", 4, 68));
+        courses.add(new Course6354("B004", "计算机网络", "1下", 4, 68));
         courses.add(new Course6354("B005", "计算机数组原理", "2上", 4, 78));
         return courses;
     }

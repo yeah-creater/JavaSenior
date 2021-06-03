@@ -74,7 +74,6 @@ public class Editor6354Controller {
         }
         return fc.showSaveDialog(new Stage());
 
-
     }
 
     @FXML
