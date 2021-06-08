@@ -2,7 +2,7 @@ package java6354.lessson13;
 
 
 class TicketThread6354 extends Thread{
-    private String threadName;
+    private final String threadName;
     private int tickets;
 
     public TicketThread6354(String threadName) {
