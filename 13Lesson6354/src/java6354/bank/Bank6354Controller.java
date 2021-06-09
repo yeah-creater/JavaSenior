@@ -1,5 +1,6 @@
 package java6354.bank;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -19,7 +20,6 @@ import java.util.List;
  * 并按要求将处理存取款的信息显示在右边的文本域中
  * （4）取款时，需要判断帐户的余额是否充足，如果余额不足，取款失败。
  * （5）存取款全部处理结束后，显示账户的最终余额
- *
  * @author yeah
  */
 
@@ -82,7 +82,6 @@ public class Bank6354Controller {
 
     @FXML
     void run() {
-
         String out = "取款";
         String in = "存款";
         synchronized (this) {
@@ -92,8 +91,7 @@ public class Bank6354Controller {
                 String info;
                 if (balance < deposit) {
                     info = name + "失败," + "余额不足(" + balance + ")\n";
-                }
-                else{
+                } else {
                     info = name + "\n";
                     balance -= deposit;
                 }
@@ -109,10 +107,12 @@ public class Bank6354Controller {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            Platform.runLater(() -> {
+                lblBalance.setText("余额" + balance);
+            });
 
         }
     }
-
 
     @FXML
     void start6354(ActionEvent event) {
@@ -127,14 +127,9 @@ public class Bank6354Controller {
                     new Thread(this::run, "线程" + (i + 1) + ": 取款" + deposit).start();
                 } else {
                     deposit = deposit.replace("+", "");
-
                     new Thread(this::run, "线程" + (i + 1) + ": 存款" + deposit).start();
                 }
             }
-
-            lblBalance.setText("余额"+balance);
         }
-
     }
-
 }

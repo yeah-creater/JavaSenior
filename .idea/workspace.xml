@@ -18,22 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/DrinkWater6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/ThreadAndRunnable6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/ID01Content.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/ID06LifeTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/callable/ID11MyCallable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/communicity/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/images/Threadlifetime.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID04ThreadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID05WindowTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID07WindowTestImprove.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID08WindowTestImprove2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID09DeadLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID10Lock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/thread/ID02ThreadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/thread/ID03WindowTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/threadpool/ThreadPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +91,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12Lesson6354/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13Lesson6354/src/java6354/bank" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -118,11 +105,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\13Lesson6354\src\java6354\bank" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src\java6354\file" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src\java6354\lesson12" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\dao" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src" />
@@ -135,14 +122,28 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="java6354.bank" />
       <recent name="java6354.lesson11" />
       <recent name="java6354.edit" />
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bank6354">
+  <component name="RunManager" selected="Application.DrinkWater6354">
     <configuration name="Bank6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.bank.Bank6354" />
+      <module name="13Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrinkWater6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.bank.DrinkWater6354" />
       <module name="13Lesson6354" />
       <extension name="coverage">
         <pattern>
@@ -167,13 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSummary6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileSummary6354" />
-      <module name="12Lesson6354" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileSummary6415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="file.FileSummary6415" />
       <module name="12Lesson6354" />
@@ -187,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadAndRunnable6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.ThreadAndRunnable6354" />
+    <configuration name="ThreadAndRunnable6354 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.bank.ThreadAndRunnable6354" />
       <module name="13Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.lessson13.*" />
+          <option name="PATTERN" value="java6354.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,13 +194,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DrinkWater6354" />
         <item itemvalue="Application.Bank6354" />
+        <item itemvalue="Application.ThreadAndRunnable6354 (1)" />
         <item itemvalue="Application.Export6415" />
         <item itemvalue="Application.FileSummary6415" />
-        <item itemvalue="Application.ThreadAndRunnable6354" />
-        <item itemvalue="Application.FileSummary6354" />
       </list>
     </recent_temporary>
   </component>
@@ -439,6 +444,7 @@
       <workItem from="1623156648173" duration="2170000" />
       <workItem from="1623167632990" duration="77000" />
       <workItem from="1623235647532" duration="1500000" />
+      <workItem from="1623246886629" duration="4423000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -769,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623167690228</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="modified">
+      <created>1623246932071</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1623246932071</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
