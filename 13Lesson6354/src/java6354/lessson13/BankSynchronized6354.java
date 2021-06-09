@@ -18,7 +18,6 @@ public class BankSynchronized6354 {
             money = -100;
             action = "取出";
         }
-        //有问题
         synchronized (count) {
             for (int i = 0; i < 3; i++) {
 
