@@ -1,12 +1,9 @@
 package java6354.lessson13;
-
 /**
  * @author: yeah
  */
 public class DrinkWater6354 {
     private static int waters = (int) 100L;
-
-
     public static void drinking6354() {
         while (waters > 0) {
             String name = Thread.currentThread().getName();
@@ -28,14 +25,10 @@ public class DrinkWater6354 {
         }
         System.out.println("水不够了,hhh");
     }
-
-
     public static void main(String[] args) {
         Thread dog = new Thread(DrinkWater6354::drinking6354, "狗");
         Thread cat = new Thread(DrinkWater6354::drinking6354, "猫");
         dog.start();
         cat.start();
-
-
     }
 }

@@ -18,10 +18,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/DrinkWater6354.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/ThreadAndRunnable6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/DrinkWater6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/DrinkWater6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/BankSynchronized6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/BankSynchronized6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/DrinkWater6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/DrinkWater6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/ThreadAndRunnable6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/ThreadAndRunnable6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +129,39 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DrinkWater6354">
+  <component name="RunManager" selected="Application.BankSynchronized6354">
     <configuration name="Bank6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.bank.Bank6354" />
       <module name="13Lesson6354" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java6354.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankSynchronized6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.BankSynchronized6354" />
+      <module name="13Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.lessson13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrinkWater6354 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.DrinkWater6354" />
+      <module name="13Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.lessson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,38 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Export6415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.Export6415" />
-      <module name="12Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileSummary6415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.FileSummary6415" />
-      <module name="12Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadAndRunnable6354 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.bank.ThreadAndRunnable6354" />
+    <configuration name="ThreadAndRunnable6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.ThreadAndRunnable6354" />
       <module name="13Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.bank.*" />
+          <option name="PATTERN" value="java6354.lessson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankSynchronized6354" />
+        <item itemvalue="Application.DrinkWater6354 (1)" />
+        <item itemvalue="Application.ThreadAndRunnable6354" />
         <item itemvalue="Application.DrinkWater6354" />
         <item itemvalue="Application.Bank6354" />
-        <item itemvalue="Application.ThreadAndRunnable6354 (1)" />
-        <item itemvalue="Application.Export6415" />
-        <item itemvalue="Application.FileSummary6415" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +445,7 @@
       <workItem from="1623156648173" duration="2170000" />
       <workItem from="1623167632990" duration="77000" />
       <workItem from="1623235647532" duration="1500000" />
-      <workItem from="1623246886629" duration="4423000" />
+      <workItem from="1623246886629" duration="5679000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -782,7 +783,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623246932071</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="modified">
+      <created>1623251480322</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1623251480322</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

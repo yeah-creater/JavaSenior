@@ -11,7 +11,7 @@ class TicketThread6354 extends Thread{
 
     @Override
     public void run() {
-        while (tickets<100){
+        while (tickets<20){
             tickets++;
             System.out.println(threadName+"窗口,已售"+tickets+"张票");
         }
@@ -23,7 +23,7 @@ class TicketRunnable6354 implements Runnable{
     private int tickets;
     @Override
     public void run() {
-        while (tickets<100){
+        while (tickets<20){
             tickets++;
             System.out.println(Thread.currentThread().getName()+"窗口,已售"+tickets+"张票");
         }
@@ -48,8 +48,8 @@ public class ThreadAndRunnable6354 {
     }
 
     public static void main(String[] args) {
-        // saleByThread6354();
-        //saleByRunnable6354();
+//         saleByThread6354();
+        saleByRunnable6354();
     }
 
 }
