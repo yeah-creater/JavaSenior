@@ -17,7 +17,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="" />
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/thread/ID03WindowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/thread/ID03WindowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/DrinkWater6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/DrinkWater6354.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,12 +59,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/05Lesson6354/src/java6354/sort/list/ListSort6354View.fxml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/file/Export6354Controller.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/05Lesson6354/src/java6354/sort/list/ListSort6354View.fxml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pL1w05TYyiAg2UES2S6jWL9Ail" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -93,7 +98,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -122,13 +127,13 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Export6415">
-    <configuration name="Export6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.file.Export6354" />
-      <module name="12Lesson6354" />
+  <component name="RunManager" selected="Application.DrinkWater6354">
+    <configuration name="DrinkWater6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.DrinkWater6354" />
+      <module name="13Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.file.*" />
+          <option name="PATTERN" value="java6354.lessson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,19 +154,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSummary6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileSummary6354" />
-      <module name="12Lesson6354" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileSummary6415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="file.FileSummary6415" />
       <module name="12Lesson6354" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ID03WindowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01multiThreading.thread.ID03WindowTest" />
+      <module name="13Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01multiThreading.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,28 +193,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DrinkWater6354" />
+        <item itemvalue="Application.ThreadAndRunnable6354" />
+        <item itemvalue="Application.ID03WindowTest" />
         <item itemvalue="Application.Export6415" />
         <item itemvalue="Application.FileSummary6415" />
-        <item itemvalue="Application.ThreadAndRunnable6354" />
-        <item itemvalue="Application.FileSummary6354" />
-        <item itemvalue="Application.Export6354" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="" />
@@ -431,6 +434,7 @@
       <workItem from="1623147028510" duration="2058000" />
       <workItem from="1623156648173" duration="2170000" />
       <workItem from="1623167632990" duration="77000" />
+      <workItem from="1623197151368" duration="1811000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -765,7 +769,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -786,6 +790,32 @@
     <MESSAGE value="类的定义与使用" />
     <MESSAGE value="modified" />
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1623197983076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623197983076" />
+    <state width="1877" height="485" key="GridCell.Tab.0.bottom" timestamp="1623197485017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623197485017" />
+    <state width="1877" height="485" key="GridCell.Tab.0.center" timestamp="1623197485017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="485" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623197485017" />
+    <state width="1877" height="485" key="GridCell.Tab.0.left" timestamp="1623197485017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="485" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623197485017" />
+    <state width="1877" height="485" key="GridCell.Tab.0.right" timestamp="1623197485017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="485" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623197485017" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1623197232344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623197232344" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

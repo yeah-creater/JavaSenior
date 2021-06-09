@@ -1,6 +1,5 @@
 package _01multiThreading.thread;
 
-import jdk.swing.interop.SwingInterOpUtils;
 
 /**
  * @author Yeah
