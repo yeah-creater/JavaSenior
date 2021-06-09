@@ -17,11 +17,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="modified">
+      <change afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/BankAccount6354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/BankSynchronized6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/thread/ID03WindowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/thread/ID03WindowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/DrinkWater6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/DrinkWater6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/ThreadAndRunnable6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/lessson13/ThreadAndRunnable6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,20 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DrinkWater6354">
+  <component name="RunManager" selected="Application.BankSynchronized6354">
+    <configuration name="BankSynchronized6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.BankSynchronized6354" />
+      <module name="13Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.lessson13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DrinkWater6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lessson13.DrinkWater6354" />
       <module name="13Lesson6354" />
@@ -143,19 +156,6 @@
     </configuration>
     <configuration name="Export6415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="file.Export6415" />
-      <module name="12Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileSummary6415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.FileSummary6415" />
       <module name="12Lesson6354" />
       <extension name="coverage">
         <pattern>
@@ -195,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DrinkWater6354" />
+        <item itemvalue="Application.BankSynchronized6354" />
         <item itemvalue="Application.ThreadAndRunnable6354" />
+        <item itemvalue="Application.DrinkWater6354" />
         <item itemvalue="Application.ID03WindowTest" />
         <item itemvalue="Application.Export6415" />
-        <item itemvalue="Application.FileSummary6415" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +434,7 @@
       <workItem from="1623147028510" duration="2058000" />
       <workItem from="1623156648173" duration="2170000" />
       <workItem from="1623167632990" duration="77000" />
-      <workItem from="1623197151368" duration="1811000" />
+      <workItem from="1623197151368" duration="4965000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1619944137361</created>
@@ -765,7 +765,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623167690228</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="modified">
+      <created>1623199245756</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1623199245756</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,30 +799,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1623197983076">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1623200568356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623197983076" />
-    <state width="1877" height="485" key="GridCell.Tab.0.bottom" timestamp="1623197485017">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623200568356" />
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom" timestamp="1623201976471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623197485017" />
-    <state width="1877" height="485" key="GridCell.Tab.0.center" timestamp="1623197485017">
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623201976471" />
+    <state width="1877" height="328" key="GridCell.Tab.0.center" timestamp="1623201976471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="485" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623197485017" />
-    <state width="1877" height="485" key="GridCell.Tab.0.left" timestamp="1623197485017">
+    <state width="1877" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623201976471" />
+    <state width="1877" height="328" key="GridCell.Tab.0.left" timestamp="1623201976471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="485" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623197485017" />
-    <state width="1877" height="485" key="GridCell.Tab.0.right" timestamp="1623197485017">
+    <state width="1877" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623201976471" />
+    <state width="1877" height="328" key="GridCell.Tab.0.right" timestamp="1623201976471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="485" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623197485017" />
+    <state width="1877" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623201976471" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1623201734426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623201734426" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1623201734426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623201734426" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1623201734426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623201734426" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1623201734426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623201734426" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1623197232344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623197232344" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1623199261130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623199261130" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -48,8 +48,8 @@ public class ThreadAndRunnable6354 {
     }
 
     public static void main(String[] args) {
-        //saleByThread6354();
-        saleByRunnable6354();
+        // saleByThread6354();
+        //saleByRunnable6354();
     }
 
 }
