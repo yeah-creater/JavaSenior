@@ -17,8 +17,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="modified">
+    <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/ID01Content.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/ID06LifeTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/callable/ID11MyCallable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/communicity/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/images/Threadlifetime.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID04ThreadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID05WindowTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID07WindowTestImprove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID08WindowTestImprove2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID09DeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/runnable/ID10Lock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/thread/ID02ThreadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/thread/ID03WindowTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/_01multiThreading/threadpool/ThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/13Lesson6354/src/java6354/bank/Bank6354Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +47,8 @@
         <option value="FxmlFile" />
         <option value="Kotlin File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,12 +72,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/file/Export6354Controller.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/05Lesson6354/src/java6354/sort/list/ListSort6354View.fxml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/file/Export6354Controller.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pL1w05TYyiAg2UES2S6jWL9Ail" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -89,19 +104,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/13Lesson6354/src/java6354/bank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12Lesson6354/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src\java6354\file" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src\java6354\lesson12" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\dao" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354" />
@@ -116,13 +138,6 @@
       <recent name="java6354.lesson11" />
       <recent name="java6354.edit" />
       <recent name="java6354.generic" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaSenior\13Lesson6354\src\java6354\bank" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src\java6354\file" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\12Lesson6354\src\java6354\lesson12" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\11Lesson6354\src\dao" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Bank6354">
@@ -139,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankSynchronized6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.BankSynchronized6354" />
-      <module name="13Lesson6354" />
+    <configuration name="Export6415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="file.Export6415" />
+      <module name="12Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.lessson13.*" />
+          <option name="PATTERN" value="file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,25 +167,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrinkWater6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.DrinkWater6354" />
-      <module name="13Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lessson13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="FileSummary6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileSummary6354" />
+      <module name="12Lesson6354" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ID03WindowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01multiThreading.thread.ID03WindowTest" />
-      <module name="13Lesson6354" />
+    <configuration name="FileSummary6415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="file.FileSummary6415" />
+      <module name="12Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01multiThreading.thread.*" />
+          <option name="PATTERN" value="file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,17 +203,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Bank6354" />
-        <item itemvalue="Application.BankSynchronized6354" />
-        <item itemvalue="Application.DrinkWater6354" />
+        <item itemvalue="Application.Export6415" />
+        <item itemvalue="Application.FileSummary6415" />
         <item itemvalue="Application.ThreadAndRunnable6354" />
-        <item itemvalue="Application.ID03WindowTest" />
+        <item itemvalue="Application.FileSummary6354" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="" />
@@ -432,7 +438,14 @@
       <workItem from="1623147028510" duration="2058000" />
       <workItem from="1623156648173" duration="2170000" />
       <workItem from="1623167632990" duration="77000" />
-      <workItem from="1623197151368" duration="11641000" />
+      <workItem from="1623235647532" duration="1500000" />
+    </task>
+    <task id="LOCAL-00001" summary="this is my first commit">
+      <created>1619944137361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619944137361</updated>
     </task>
     <task id="LOCAL-00002" summary="this is my first commit">
       <created>1619944889867</created>
@@ -756,32 +769,11 @@
       <option name="project" value="LOCAL" />
       <updated>1623167690228</updated>
     </task>
-    <task id="LOCAL-00048" summary="modified">
-      <created>1623199245756</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1623199245756</updated>
-    </task>
-    <task id="LOCAL-00049" summary="modified">
-      <created>1623202358234</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1623202358234</updated>
-    </task>
-    <task id="LOCAL-00050" summary="modified">
-      <created>1623207902629</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1623207902629</updated>
-    </task>
-    <option name="localTasksCounter" value="51" />
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -802,52 +794,6 @@
     <MESSAGE value="类的定义与使用" />
     <MESSAGE value="modified" />
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1623200568356">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623200568356" />
-    <state width="938" height="218" key="GridCell.Tab.0.bottom" timestamp="1623208795235">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623208795235" />
-    <state width="938" height="218" key="GridCell.Tab.0.center" timestamp="1623208795235">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623208795235" />
-    <state width="938" height="218" key="GridCell.Tab.0.left" timestamp="1623208795220">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623208795220" />
-    <state width="938" height="218" key="GridCell.Tab.0.right" timestamp="1623208795235">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623208795235" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1623201734426">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623201734426" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1623201734426">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623201734426" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1623201734426">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623201734426" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1623201734426">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623201734426" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1623197232344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623197232344" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1623207908243">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623207908243" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

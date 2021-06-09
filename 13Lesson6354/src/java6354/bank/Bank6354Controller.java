@@ -6,6 +6,8 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import sun.nio.ch.ThreadPool;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -17,6 +19,8 @@ import java.util.List;
  * 并按要求将处理存取款的信息显示在右边的文本域中
  * （4）取款时，需要判断帐户的余额是否充足，如果余额不足，取款失败。
  * （5）存取款全部处理结束后，显示账户的最终余额
+ *
+ * @author yeah
  */
 
 public class Bank6354Controller {
@@ -62,8 +66,8 @@ public class Bank6354Controller {
     boolean check1() {
         String initBalance = tfBalance0.getText().trim();
         String regex = "[+]?\\d+|[-]?0+";
-        if (!initBalance.matches(regex)) {
-            alertTips("初始余额为空或格式错误");
+        if (!initBalance.matches(regex) || tfBankID.getText().trim().isEmpty()) {
+            alertTips("初始余额,账户为空或格式错误");
             return false;
         }
         balance = Integer.parseInt(initBalance.replaceAll("[+]|[-]", ""));
@@ -78,13 +82,34 @@ public class Bank6354Controller {
 
     @FXML
     void run() {
-        String name = Thread.currentThread().getName();
+
+        String out = "取款";
+        String in = "存款";
         synchronized (this) {
-            if ("取款".equals(name)) {
-                System.out.println("取钱");
+            String name = Thread.currentThread().getName();
+            if (name.contains(out)) {
+                int deposit = Integer.parseInt(name.split(out)[1]);
+                String info;
+                if (balance < deposit) {
+                    info = name + "失败," + "余额不足(" + balance + ")\n";
+                }
+                else{
+                    info = name + "\n";
+                    balance -= deposit;
+                }
+                taResult.appendText(info);
             } else {
-                System.out.println("存钱");
+                int deposit = Integer.parseInt(name.split(in)[1]);
+                balance += deposit;
+                String info = name + "\n";
+                taResult.appendText(info);
             }
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
         }
     }
 
@@ -92,17 +117,24 @@ public class Bank6354Controller {
     @FXML
     void start6354(ActionEvent event) {
         if (check1()) {
-            int idx=1;
-            for (String val : getDeposit()) {
-                if (val.charAt(0) == '-') {
-                    new Thread(this::run, "取款").start();
-                }
-                //数字或+
-                else {
-                    new Thread(this::run, "存款").start();
+            taResult.clear();
+            lblBalance.setText("");
+            List<String> deposits = getDeposit();
+            for (int i = 0; i < deposits.size(); i++) {
+                String deposit = deposits.get(i);
+                if (deposit.charAt(0) == '-') {
+                    deposit = deposit.replace("-", "");
+                    new Thread(this::run, "线程" + (i + 1) + ": 取款" + deposit).start();
+                } else {
+                    deposit = deposit.replace("+", "");
+
+                    new Thread(this::run, "线程" + (i + 1) + ": 存款" + deposit).start();
                 }
             }
+
+            lblBalance.setText("余额"+balance);
         }
+
     }
 
 }
