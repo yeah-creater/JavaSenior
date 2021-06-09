@@ -5,7 +5,7 @@ package java6354.bank;
  * @author yeah
  */
 public class ThreadAndRunnable6354 {
-    private int tickets = 30;
+    private int tickets = 20;
     private String flag = "窗口";
     private int idx = 0;
 
