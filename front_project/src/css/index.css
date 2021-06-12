@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    /*background-color: antiquewhite;*/
+    height: 1200px;
+}
+#page2{
+    margin:auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
