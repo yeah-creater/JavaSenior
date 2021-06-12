@@ -10,12 +10,47 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.content{
-    width: 80%;
-    margin: auto;
-    /*background-color: antiquewhite;*/
-    height: 1200px;
+
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #232323;
+    text-align-all: center;
 }
+
+.navbar_center {
+    width: 60%;
+    margin: auto;
+}
+
+.navbar_center_left{
+    color: #cccccc;
+}
+.navbar_center_left li {
+    margin-right: 50px;
+    float: left;
+
+}
+
+.navbar_center_right li {
+    float: right;
+    margin-right: 100px;
+}
+li {
+    list-style: none;
+}
+li a{
+    color: #cccccc;
+    font-size: 15px;
+    /*text-align: center;*/
+    line-height: 50px;
+    /*color: gold;*/
+}
+.index a{
+    color: gold;!important;
+}
+
 #page2{
     margin:auto;
     width: 100%;

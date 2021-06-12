@@ -44,6 +44,6 @@ li a{
     /*text-align: center;*/
     line-height: 50px;
 }
-.competition{
-    color: gold;
+#navigation_competition_active_id a{
+    color: orange;!important;
 }
