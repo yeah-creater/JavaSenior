@@ -26,9 +26,10 @@ body {
     margin: auto;
 }
 
-.navbar_center_left{
+.navbar_center_left {
     color: #cccccc;
 }
+
 .navbar_center_left li {
     margin-right: 50px;
     float: left;
@@ -39,22 +40,45 @@ body {
     float: right;
     margin-right: 100px;
 }
+
 li {
     list-style: none;
 }
-li a{
+
+li a {
     color: #cccccc;
     font-size: 15px;
     /*text-align: center;*/
     line-height: 50px;
     /*color: gold;*/
 }
-.index a{
-    color: gold;!important;
+
+.index a {
+    color: gold;
+!important;
 }
 
-#page2{
-    margin:auto;
+.introduction {
+    padding: 50px;
+    margin: auto;
+    text-align: left;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.introduction h1 {
+    text-align: center;
+    color: greenyellow;
+}
+
+.introduction p {
+    font-size: 25px;
+    text-indent: 2em;
+    color: wheat;
+}
+
+#page2 {
+    margin: auto;
     width: 100%;
     position: fixed;
     bottom: 0;

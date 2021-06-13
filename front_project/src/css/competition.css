@@ -44,6 +44,21 @@ li a{
     /*text-align: center;*/
     line-height: 50px;
 }
+.start{
+    width: 12%;
+    float: left;
+    margin-top: 160px;
+    margin-left: 80px;
+}
+.start p{
+    font-size: 40px;
+    margin-top: 30px;
+    color: white;
+}
+.start p:hover{
+    margin-left: 40px;
+    cursor: pointer;
+}
 #navigation_competition_active_id a{
     color: orange;!important;
 }
