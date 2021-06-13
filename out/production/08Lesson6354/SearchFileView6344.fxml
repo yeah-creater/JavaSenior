@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchFileController6344">
+   <children>
+      <Button fx:id="button" layoutX="42.0" layoutY="38.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="101.0" text="选择目录" />
+      <TextField fx:id="textfield" layoutX="165.0" layoutY="40.0" prefHeight="30.0" prefWidth="194.0" />
+      <Label fx:id="label1" layoutX="366.0" layoutY="40.0" prefHeight="30.0" prefWidth="224.0" />
+      <ListView fx:id="listView" layoutX="14.0" layoutY="113.0" prefHeight="266.0" prefWidth="572.0" />
+      <Label fx:id="label2" layoutX="14.0" layoutY="83.0" prefHeight="30.0" prefWidth="209.0" />
+      <Label layoutX="200.0" layoutY="371.0" prefHeight="30.0" prefWidth="259.0" text="by 211906344 ：王忠舟" />
+   </children>
+</Pane>
