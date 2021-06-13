@@ -56,8 +56,7 @@ li a {
 }
 
 .problem a {
-    color: gold;
-/important;
+    color: gold;!important;
 }
 
 #content {
@@ -71,7 +70,9 @@ li a {
 
 #content a {
     color: cadetblue;
-
+}
+#content a:hover{
+    color: green;
 }
 
 
