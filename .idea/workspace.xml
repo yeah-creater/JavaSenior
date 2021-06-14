@@ -18,11 +18,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/14Lesson6354/14Lesson6354.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_project/src/images/冰冰.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/css/activity.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/css/activity.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/css/community.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,15 +196,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -457,14 +455,8 @@
       <workItem from="1623594477832" duration="6350000" />
       <workItem from="1623601758211" duration="1558000" />
       <workItem from="1623641078978" duration="13107000" />
-      <workItem from="1623660964426" duration="10401000" />
-    </task>
-    <task id="LOCAL-00017" summary="modified">
-      <created>1620835941300</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1620835941300</updated>
+      <workItem from="1623660964426" duration="10747000" />
+      <workItem from="1623680901418" duration="311000" />
     </task>
     <task id="LOCAL-00018" summary="modified">
       <created>1620881420664</created>
@@ -802,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623667375139</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="modified">
+      <created>1623672870845</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1623672870845</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
