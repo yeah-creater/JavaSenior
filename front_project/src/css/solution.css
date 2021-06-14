@@ -59,10 +59,13 @@ li a {
 .content {
     width: 70%;
     /*height: auto;*/
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     background-color: white;
     margin: auto;
     text-align: center;
+}
+.content .content_whole{
+    background-color: white;
 }
 .content .topic{
     height: 150px;
@@ -99,6 +102,19 @@ li a {
 .content .content_whole .content_body tbody tr td a:hover{
     text-decoration: underline;
 }
+.content .button {
+    height: 80px;
+    background-color: white;
+    width: 100%;
+    /*border: 1px solid white;*/
+    float: right;
+}
+
+.content .button a {
+    margin: 20px;
+    font-size: 20px;
+}
+
 .bottom{
     height: 100px;
 }

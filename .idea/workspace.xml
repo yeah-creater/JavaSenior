@@ -18,22 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/competition.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/competition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/css/activity.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/css/activity.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_project/src/css/solution.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/css/solution.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/images/going.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/images/notStart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/images/刘老师.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/problem/page1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/problem/page2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page3.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/problem/page3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_project/src/solution.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/solution.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -469,14 +455,7 @@
       <workItem from="1623594477832" duration="6350000" />
       <workItem from="1623601758211" duration="1558000" />
       <workItem from="1623641078978" duration="13107000" />
-      <workItem from="1623660964426" duration="5369000" />
-    </task>
-    <task id="LOCAL-00015" summary="modified">
-      <created>1620801530639</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1620801530639</updated>
+      <workItem from="1623660964426" duration="6121000" />
     </task>
     <task id="LOCAL-00016" summary="modified">
       <created>1620801789108</created>
@@ -814,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623655060641</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="modified">
+      <created>1623666627501</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1623666627501</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
