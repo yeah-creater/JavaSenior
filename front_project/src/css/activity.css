@@ -79,7 +79,7 @@ li a {
     margin-bottom: 0;
     width:90px;
     height: 90px;
-    margin-right: 800px;
+    margin-right: 700px;
 }
 
 .content .row .row_left a {
@@ -89,9 +89,10 @@ li a {
     font-size: 21px;
     color:  #0d71bb;
 }
+
 .content .row .row_right a{
     margin-top: 10px;
-    /*float: right;*/
+    float: right;
     display: block;
     font-size: 20px;
     font-weight: bold;
