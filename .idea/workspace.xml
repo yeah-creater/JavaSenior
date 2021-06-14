@@ -18,24 +18,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/cht.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/going.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/notStart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/yxc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/yxcBlog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/刘老师.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/墨染空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/小学生blog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/抽风.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/抽风blog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/滑稽.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/菜狗.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/菜狗blog.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_project/src/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/activity.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_project/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/community.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/competition.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/competition.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_project/src/css/activity.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/css/activity.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_project/src/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/solution.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/css/solution.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/going.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/notStart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/刘老师.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/problem/page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/problem/page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page3.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/problem/page3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/solution.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/solution.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,13 +208,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -467,21 +468,8 @@
       <workItem from="1623565533591" duration="144000" />
       <workItem from="1623594477832" duration="6350000" />
       <workItem from="1623601758211" duration="1558000" />
-      <workItem from="1623641078978" duration="12717000" />
-    </task>
-    <task id="LOCAL-00013" summary="modified">
-      <created>1620179098135</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1620179098135</updated>
-    </task>
-    <task id="LOCAL-00014" summary="modified">
-      <created>1620800268913</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1620800268913</updated>
+      <workItem from="1623641078978" duration="13107000" />
+      <workItem from="1623660964426" duration="5369000" />
     </task>
     <task id="LOCAL-00015" summary="modified">
       <created>1620801530639</created>
@@ -812,7 +800,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623602270199</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="modified">
+      <created>1623654914886</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1623654914894</updated>
+    </task>
+    <task id="LOCAL-00063" summary="modified">
+      <created>1623655060641</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1623655060641</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

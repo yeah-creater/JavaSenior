@@ -9,6 +9,7 @@ body {
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 
@@ -17,6 +18,8 @@ body {
     height: 50px;
     background: #232323;
     text-align-all: center;
+    position: fixed;
+    top: 0;
 }
 
 .navbar_center {
@@ -50,7 +53,55 @@ li a {
     line-height: 50px;
     /*color: gold;*/
 }
-
+.top{
+    height: 80px;
+}
+.content {
+    width: 70%;
+    /*height: auto;*/
+    border: 1px solid white;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+.content .topic{
+    height: 150px;
+    line-height: 80px;
+}
+.content .topic input{
+    margin-right: 20px;
+    float: right;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #66afe9;
+    padding: 10px 16px;
+    font-size: 18px;
+    color: white;
+    line-height: 1.3333333;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content .topic input:hover{
+    color: #fff;
+    background-color: #31b0d5;
+    border: none;
+}
+.content .content_whole .content_body tbody tr td{
+    border-bottom: 2px solid #e0e0e0;
+    height: 40px;
+    width: 250px;
+}
+.content .content_whole .content_body tbody tr td a{
+    color: #0d71bb;
+}
+.content .content_whole .content_body tbody tr td a:hover{
+    text-decoration: underline;
+}
+.bottom{
+    height: 100px;
+}
 .solution a{
     color: gold;!important;
 }

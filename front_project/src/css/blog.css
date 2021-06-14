@@ -17,6 +17,8 @@ body {
     height: 50px;
     background: #232323;
     text-align-all: center;
+    position: fixed;
+    top: 0;
 
 }
 
@@ -110,6 +112,9 @@ li a{
 .content .user .user_right .tips a{
     font-size: 18px;
     color: #cccccc;
+}
+.top{
+    height: 80px;
 }
 .bottom{
     height: 100px;

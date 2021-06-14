@@ -17,6 +17,8 @@ body {
     height: 50px;
     background: #232323;
     text-align-all: center;
+    position: fixed;
+    top: 0;
 }
 
 .navbar_center {
@@ -116,7 +118,7 @@ li a {
 }
 
 .top {
-    height: 30px;
+    height: 80px;
 }
 
 .bottom {
