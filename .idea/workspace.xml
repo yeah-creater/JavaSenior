@@ -18,9 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/BaseClient6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14Lesson6354/14Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/14Lesson6354.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/BaseClient6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/BaseClient6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/BaseServer6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/BaseServer6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +129,7 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bank1189 (1)">
+  <component name="RunManager" selected="Application.BaseServer6354">
     <configuration name="Bank1189 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java1189.bank.Bank1189" />
       <module name="13Lesson6354" />
@@ -170,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrinkWater6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.bank.DrinkWater6354" />
-      <module name="13Lesson6354" />
+    <configuration name="BaseClient6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lesson14.BaseClient6354" />
+      <module name="14Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.bank.*" />
+          <option name="PATTERN" value="java6354.lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadAndRunnable6354 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.bank.ThreadAndRunnable6354" />
-      <module name="13Lesson6354" />
+    <configuration name="BaseServer6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lesson14.BaseServer6354" />
+      <module name="14Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.bank.*" />
+          <option name="PATTERN" value="java6354.lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseClient6354" />
+        <item itemvalue="Application.BaseServer6354" />
         <item itemvalue="Application.Bank1189 (1)" />
         <item itemvalue="Application.Bank1189" />
         <item itemvalue="Application.Bank6354" />
-        <item itemvalue="Application.DrinkWater6354" />
-        <item itemvalue="Application.ThreadAndRunnable6354 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -458,14 +457,7 @@
       <workItem from="1623660964426" duration="10747000" />
       <workItem from="1623680901418" duration="3215000" />
       <workItem from="1623753283057" duration="1303000" />
-      <workItem from="1623766674863" duration="4230000" />
-    </task>
-    <task id="LOCAL-00020" summary="modified">
-      <created>1620891893049</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1620891893049</updated>
+      <workItem from="1623766674863" duration="5686000" />
     </task>
     <task id="LOCAL-00021" summary="modified">
       <created>1620892847616</created>
@@ -803,7 +795,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623771452578</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="modified">
+      <created>1623773214405</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1623773214405</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

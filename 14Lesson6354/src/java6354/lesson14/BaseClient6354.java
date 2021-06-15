@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
+import java.time.LocalTime;
 
 /**
  * @author: yeah
@@ -32,6 +33,7 @@ public class BaseClient6354 {
             is = client.getInputStream();
             int len;
             byte[] data = new byte[1024];
+            System.out.println(LocalTime.now());
             while ((len = is.read(data)) != -1) {
                 System.out.println(new String(data, 0, len));
             }
