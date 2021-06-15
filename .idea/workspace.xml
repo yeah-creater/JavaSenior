@@ -18,12 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID00Definition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID01TCPAndUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID02TCPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID03UDPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID04URLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/BaseClient6354.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/14Lesson6354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/14Lesson6354.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/BaseServer6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/BaseServer6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +35,9 @@
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -459,14 +458,7 @@
       <workItem from="1623660964426" duration="10747000" />
       <workItem from="1623680901418" duration="3215000" />
       <workItem from="1623753283057" duration="1303000" />
-      <workItem from="1623766674863" duration="2493000" />
-    </task>
-    <task id="LOCAL-00019" summary="modified">
-      <created>1620891855820</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1620891855820</updated>
+      <workItem from="1623766674863" duration="4230000" />
     </task>
     <task id="LOCAL-00020" summary="modified">
       <created>1620891893049</created>
@@ -804,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623681265964</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="modified">
+      <created>1623771452577</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1623771452578</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
