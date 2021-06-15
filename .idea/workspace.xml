@@ -18,11 +18,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14Lesson6354/14Lesson6354.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_project/src/images/冰冰.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID00Definition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID01TCPAndUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID02TCPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID03UDPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID04URLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_project/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_project/src/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front_project/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14Lesson6354/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -107,11 +108,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\14Lesson6354\src" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\13Lesson6354\src\java1189" />
+      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\13Lesson6354\src" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\front_project\src\images" />
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\front_project\src\css" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\front_project\src\problem" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\front_project" />
-      <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Code\idea\JAVAFullStack\12JavaSenior\Java6354\front_project\src\problem" />
@@ -130,39 +131,39 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bank6354">
+  <component name="RunManager" selected="Application.Bank1189 (1)">
+    <configuration name="Bank1189 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java1189.bank.Bank1189" />
+      <module name="13Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java1189.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bank1189" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bank.Bank1189" />
+      <module name="13Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Bank6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.bank.Bank6354" />
       <module name="13Lesson6354" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java6354.bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankSynchronized6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.BankSynchronized6354" />
-      <module name="13Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lessson13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DrinkWater6354 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lessson13.DrinkWater6354" />
-      <module name="13Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lessson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bank1189 (1)" />
+        <item itemvalue="Application.Bank1189" />
         <item itemvalue="Application.Bank6354" />
         <item itemvalue="Application.DrinkWater6354" />
         <item itemvalue="Application.ThreadAndRunnable6354 (1)" />
-        <item itemvalue="Application.BankSynchronized6354" />
-        <item itemvalue="Application.DrinkWater6354 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -456,14 +457,9 @@
       <workItem from="1623601758211" duration="1558000" />
       <workItem from="1623641078978" duration="13107000" />
       <workItem from="1623660964426" duration="10747000" />
-      <workItem from="1623680901418" duration="311000" />
-    </task>
-    <task id="LOCAL-00018" summary="modified">
-      <created>1620881420664</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1620881420664</updated>
+      <workItem from="1623680901418" duration="3215000" />
+      <workItem from="1623753283057" duration="1303000" />
+      <workItem from="1623766674863" duration="2493000" />
     </task>
     <task id="LOCAL-00019" summary="modified">
       <created>1620891855820</created>
@@ -801,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623672870845</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="modified">
+      <created>1623681265964</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1623681265964</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
