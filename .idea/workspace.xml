@@ -18,11 +18,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_2_19_10__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_9_12_06__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_9_12_06__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_9_12_06_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_9_12_06__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID02TCPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID02TCPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID00Definition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID01TCPAndUDP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID02TCPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID03UDPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/_07网络编程/ID04URLTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/OneClient6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/OneClient6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/OneServer6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/OneServer6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/TextClient6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/TextClient6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/TextServer6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/TextServer6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +69,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/file/Export6354Controller.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/05Lesson6354/src/java6354/sort/list/ListSort6354View.fxml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/file/Export6354Controller.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/Counter6354.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/12Lesson6354/src/FileSummary6354.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12Lesson6354/src/java6354/task/CourseStream6354.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pL1w05TYyiAg2UES2S6jWL9Ail" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -101,7 +108,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -131,7 +138,7 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OneClient6354">
+  <component name="RunManager" selected="Application.OneServer6354">
     <configuration name="BaseClient6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lesson14.BaseClient6354" />
       <module name="14Lesson6354" />
@@ -145,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseServer6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson14.BaseServer6354" />
+    <configuration name="OneClient6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lesson14.OneClient6354" />
       <module name="14Lesson6354" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneClient6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson14.OneClient6354" />
+    <configuration name="OneServer6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.lesson14.OneServer6354" />
       <module name="14Lesson6354" />
       <extension name="coverage">
         <pattern>
@@ -197,20 +204,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.OneClient6354" />
+        <item itemvalue="Application.OneServer6354" />
         <item itemvalue="Application.TextClient6354" />
         <item itemvalue="Application.TextServer6354" />
         <item itemvalue="Application.BaseClient6354" />
-        <item itemvalue="Application.BaseServer6354" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="" />
@@ -452,7 +469,6 @@
       <workItem from="1623680901418" duration="3215000" />
       <workItem from="1623753283057" duration="1303000" />
       <workItem from="1623766674863" duration="7843000" />
-      <workItem from="1623810553062" duration="899000" />
     </task>
     <task id="LOCAL-00023" summary="modified">
       <created>1621269083078</created>
@@ -801,7 +817,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -822,12 +838,6 @@
     <MESSAGE value="类的定义与使用" />
     <MESSAGE value="modified" />
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="461" y="164" key="SettingsEditor" timestamp="1623810608581">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623810608581" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

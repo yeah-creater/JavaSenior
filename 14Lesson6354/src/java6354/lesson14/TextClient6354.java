@@ -3,6 +3,7 @@ package java6354.lesson14;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 /**
@@ -15,12 +16,18 @@ public class TextClient6354 {
      */
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
-        String data = in.nextLine();
         Socket client = new Socket("localhost", 23333);
         OutputStream os = client.getOutputStream();
-        PrintWriter pw = new PrintWriter(os);
-        pw.write(data);
-        pw.close();
+        PrintWriter pw=new PrintWriter(os);
+        while (true) {
+            String data = in.nextLine();
+            pw.println(data);
+            pw.flush();
+            if ("stop".equals(data)) {
+                break;
+            }
+        }
+
         os.close();
         in.close();
         client.close();

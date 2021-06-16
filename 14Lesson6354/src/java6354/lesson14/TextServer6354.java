@@ -24,11 +24,14 @@ public class TextServer6354 {
     public static void main(String[] args) throws Exception {
         ServerSocket server = new ServerSocket(23333);
         Socket client = server.accept();
+        PrintWriter pw = new PrintWriter("data/text6354.txt");
         InputStream is = client.getInputStream();
         Scanner in = new Scanner(is);
-        PrintWriter pw = new PrintWriter("data/text6354.txt");
-        while (in.hasNext()) {
-            String data = in.next();
+        while (true) {
+            String data = in.nextLine();
+            if ("stop".equals(data)) {
+                break;
+            }
             System.out.println(data);
             pw.write(data);
         }

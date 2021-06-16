@@ -2,6 +2,8 @@ package java6354.lesson14;
 
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.PrintStream;
+import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
@@ -18,33 +20,29 @@ public class OneClient6354 {
      * （6）重复（4）、（5），直到输入谢谢，停止会话（【思考】如何设置结束条件？）
      * （7）关闭
      */
-    public static void main(String[] args) throws Exception{
-        String ip="172.19.15.61";
-        int port=23333;
-        Socket client = new Socket(ip,port);
+    public static void main(String[] args) throws Exception {
+        String ip = "localhost";
+        int port = 23333;
+        Socket client = new Socket(ip, port);
         System.out.println("客户端");
-        System.out.println("连接"+ip+" "+port);
-        byte[]data=new byte[1024];
-        int len;
+        System.out.println("连接" + ip + " " + port);
         //服务端发来的消息
         InputStream is = client.getInputStream();
-        while ((len=is.read())!=-1){
-            System.out.println(new String(data,0,len));
-        }
+        Scanner iss = new Scanner(is);
+//        System.out.println(iss.nextLine());
         //发给服务端消息
         OutputStream os = client.getOutputStream();
-
-        Scanner in=new Scanner(System.in);
-        while (true){
+        PrintStream ps = new PrintStream(os);
+        Scanner in = new Scanner(System.in);
+        while (true) {
             System.out.println("请输入问题");
-            String pro=in.nextLine();
-            if(pro.trim().equals("谢谢")){
+            String pro = in.nextLine();
+            ps.println(pro);
+
+            if ("谢谢".equals(pro.trim())) {
                 break;
             }
-            os.write(pro.getBytes());
-            while ((len=is.read())!=-1){
-                System.out.println(new String(data,0,len));
-            }
+            System.out.println(iss.nextLine());
         }
 
     }

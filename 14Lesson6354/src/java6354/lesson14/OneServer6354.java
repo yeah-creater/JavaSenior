@@ -1,5 +1,14 @@
 package java6354.lesson14;
 
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.util.Scanner;
+
 /**
  * @author: yeah
  * （1）当有客户向服务平台发送请求时，服务平台首先回应一句欢迎用语。
@@ -17,10 +26,29 @@ public class OneServer6354 {
      * （6）从键盘输入答案，并把答案发送给客户端
      * （7）重复（5）和（6），当接收到客户端的”谢谢”后，发送”再见”结束会话
      * （8）关闭
-     *  【提示1】客户端IP地址：socket.getInetAddress().getHostAddress()
-     *  【提示2】客户端端口号：socket.getPort()
+     * 【提示1】客户端IP地址：socket.getInetAddress().getHostAddress()
+     * 【提示2】客户端端口号：socket.getPort()
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        ServerSocket server = new ServerSocket(23333);
+        Socket client = server.accept();
+        OutputStream os = client.getOutputStream();
+        PrintStream ps = new PrintStream(os);
+        InputStream is = client.getInputStream();
+        Scanner in = new Scanner(System.in);
+        Scanner iss = new Scanner(is);
+//        pw.write((server.getLocalPort()+"服务平台"));
+
+        System.out.println(client.getInetAddress().getHostAddress() + ":" + client.getPort());
+        while (true) {
+            String pro = iss.nextLine();
+            if ("谢谢".equals(pro)) {
+                break;
+            }
+            System.out.println("问题：" + pro);
+            String ans = in.nextLine();
+            ps.println(ans);
+        }
 
     }
 }
