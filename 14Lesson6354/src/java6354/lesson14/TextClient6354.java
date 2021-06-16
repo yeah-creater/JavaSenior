@@ -22,7 +22,6 @@ public class TextClient6354 {
         while (true) {
             String data = in.nextLine();
             pw.println(data);
-            pw.flush();
             if ("stop".equals(data)) {
                 break;
             }
