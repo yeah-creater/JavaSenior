@@ -19,8 +19,55 @@
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/TextClient6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/TextClient6354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/TextServer6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/14Lesson6354/src/java6354/lesson14/TextServer6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/front_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/activity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/community.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/activity.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/bottom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/community.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/competition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/problem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/css/solution.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/QRcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/cht.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/competition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/qq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/wechat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/yxc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/yxcBlog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/冰冰.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/墨染空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/夏季每日一题.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/寒假每日一题.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/小学生blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/抽风.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/抽风blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/段位.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/滑稽.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/石中剑.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/考研.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/菜狗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/images/菜狗blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/jq/jquery-3.5.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/problem/page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/qqQRcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/solution.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_project/src/wechatQRcde.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +238,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -447,14 +505,7 @@
       <workItem from="1623680901418" duration="3215000" />
       <workItem from="1623753283057" duration="1303000" />
       <workItem from="1623766674863" duration="7843000" />
-      <workItem from="1623834886558" duration="299000" />
-    </task>
-    <task id="LOCAL-00024" summary="modified">
-      <created>1621433028384</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1621433028384</updated>
+      <workItem from="1623834886558" duration="1023000" />
     </task>
     <task id="LOCAL-00025" summary="modified">
       <created>1621591909912</created>
@@ -792,7 +843,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623824015624</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="modified">
+      <created>1623835193082</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1623835193082</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
