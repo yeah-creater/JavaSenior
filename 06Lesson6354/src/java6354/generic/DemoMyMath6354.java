@@ -3,13 +3,12 @@ package java6354.generic;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.chrono.ChronoLocalDate;
+import java.util.ArrayList;
 
 /**
  * @purpose: 使用泛型类MyMathXXXX
  */
-class MySort{
 
-}
 public class DemoMyMath6354 {
     public static void main(String[] args) {
         MyMath6354<String> string = new MyMath6354<>("java","c++");

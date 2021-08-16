@@ -1,7 +1,10 @@
 package java6354.generic;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 /**
- * @purpose:自定义泛型类
+ * @author yeah
  */
 public class MyMath6354<T extends Comparable<? super T>>{
     T t1;
@@ -17,6 +20,9 @@ public class MyMath6354<T extends Comparable<? super T>>{
     }
     public T min6354(){
         return t1.compareTo(t2)<0?t1:t2;
+    }
+    public ArrayList<T> jihe(){
+        return null;
     }
     
 }

@@ -36,7 +36,6 @@ public class SetSort6354 {
         TreeSet<Course6354> tree4 = new TreeSet<>(SortByMore6354::compare);
         tree4.addAll(addSet());
         System.out.println(Arrays.toString(tree4.toArray()));
-
     }
 
 }

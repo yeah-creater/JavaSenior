@@ -19,7 +19,12 @@
   <component name="ChangeListManager">
     <list default="true" id="128a78bd-66db-4e78-b4a2-7c3f5a0adb1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04Lesson6354/src/java6354/group/TaskGroupsDemo6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/04Lesson6354/src/java6354/group/TaskGroupsDemo6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03Lesson6354/src/java6354/lesson03/EndDate6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/03Lesson6354/src/java6354/lesson03/EndDate6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05Lesson6354/src/java6354/sort/set/SetSort6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/05Lesson6354/src/java6354/sort/set/SetSort6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06Lesson6354/src/java6354/generic/Count6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/06Lesson6354/src/java6354/generic/Count6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06Lesson6354/src/java6354/generic/DemoMyMath6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/06Lesson6354/src/java6354/generic/DemoMyMath6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06Lesson6354/src/java6354/generic/MyMath6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/06Lesson6354/src/java6354/generic/MyMath6354.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06Lesson6354/src/java6354/lesson06/Count6354.java" beforeDir="false" afterPath="$PROJECT_DIR$/06Lesson6354/src/java6354/lesson06/Count6354.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +133,13 @@
       <recent name="java6354.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OneServer6354">
-    <configuration name="BaseClient6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson14.BaseClient6354" />
-      <module name="14Lesson6354" />
+  <component name="RunManager" selected="Application.Bank6354">
+    <configuration name="Bank6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.bank.Bank6354" />
+      <module name="13Lesson6354" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java6354.lesson14.*" />
+          <option name="PATTERN" value="java6354.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,6 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetSort6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java6354.sort.set.SetSort6354" />
+      <module name="05Lesson6354" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java6354.sort.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextClient6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java6354.lesson14.TextClient6354" />
       <module name="14Lesson6354" />
@@ -181,26 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextServer6354" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java6354.lesson14.TextServer6354" />
-      <module name="14Lesson6354" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java6354.lesson14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bank6354" />
+        <item itemvalue="Application.SetSort6354" />
         <item itemvalue="Application.OneClient6354" />
         <item itemvalue="Application.OneServer6354" />
         <item itemvalue="Application.TextClient6354" />
-        <item itemvalue="Application.TextServer6354" />
-        <item itemvalue="Application.BaseClient6354" />
       </list>
     </recent_temporary>
   </component>
@@ -448,14 +453,19 @@
       <workItem from="1623766674863" duration="7843000" />
       <workItem from="1623834886558" duration="2514000" />
       <workItem from="1624071803367" duration="254000" />
-      <workItem from="1624074366497" duration="1388000" />
-    </task>
-    <task id="LOCAL-00027" summary="modified">
-      <created>1621994077432</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1621994077432</updated>
+      <workItem from="1624074366497" duration="2670000" />
+      <workItem from="1624159065861" duration="723000" />
+      <workItem from="1624162516220" duration="50000" />
+      <workItem from="1624440372284" duration="166000" />
+      <workItem from="1624765566130" duration="73000" />
+      <workItem from="1624765659009" duration="312000" />
+      <workItem from="1624766751181" duration="11000" />
+      <workItem from="1625023242393" duration="433000" />
+      <workItem from="1625199372403" duration="10000" />
+      <workItem from="1625455394411" duration="7543000" />
+      <workItem from="1625497770862" duration="3803000" />
+      <workItem from="1625545705007" duration="2167000" />
+      <workItem from="1626315688105" duration="11000" />
     </task>
     <task id="LOCAL-00028" summary="modified">
       <created>1622002433283</created>
@@ -793,7 +803,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624074497744</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="modified">
+      <created>1624076198113</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1624076198113</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

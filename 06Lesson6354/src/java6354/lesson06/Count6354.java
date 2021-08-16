@@ -1,8 +1,11 @@
 package java6354.lesson06;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
+
 /**
  * @purpose: 统计字符串中每个字符出现的次数
  */
